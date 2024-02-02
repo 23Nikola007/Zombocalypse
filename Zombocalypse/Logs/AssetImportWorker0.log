@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16016 MB
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 8063 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/bekic/OneDrive/Documents/GitHub/Zombocalypse/Zombocalypse
+C:/Users/gimn desni/Documents/GitHub/Zombocalypse/Zombocalypse
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55088
-Successfully changed project path to: C:/Users/bekic/OneDrive/Documents/GitHub/Zombocalypse/Zombocalypse
-C:/Users/bekic/OneDrive/Documents/GitHub/Zombocalypse/Zombocalypse
+51095
+Successfully changed project path to: C:/Users/gimn desni/Documents/GitHub/Zombocalypse/Zombocalypse
+C:/Users/gimn desni/Documents/GitHub/Zombocalypse/Zombocalypse
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,65 @@ C:/Users/bekic/OneDrive/Documents/GitHub/Zombocalypse/Zombocalypse
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6556] Host "[IP] 172.20.208.1 [Port] 0 [Flags] 2 [Guid] 1046966510 [EditorId] 1046966510 [Version] 1048832 [Id] WindowsEditor(7,Veljko) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8340] Host "[IP] 10.65.11.156 [Port] 0 [Flags] 2 [Guid] 3467246127 [EditorId] 3467246127 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q7SCP4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6556] Host "[IP] 172.20.208.1 [Port] 0 [Flags] 2 [Guid] 1046966510 [EditorId] 1046966510 [Version] 1048832 [Id] WindowsEditor(7,Veljko) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8340] Host "[IP] 10.65.11.156 [Port] 0 [Flags] 2 [Guid] 3467246127 [EditorId] 3467246127 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q7SCP4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 9.43 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 1 workers.
+Refreshing native plugins compatible for Editor in 137.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/bekic/OneDrive/Documents/GitHub/Zombocalypse/Zombocalypse/Assets
+[Subsystems] Discovering subsystems at path C:/Users/gimn desni/Documents/GitHub/Zombocalypse/Zombocalypse/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x4628)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x152)
     Vendor:   Intel
-    VRAM:     8008 MB
-    Driver:   31.0.101.4887
+    VRAM:     128 MB
+    Driver:   10.18.10.4252
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010559 seconds.
-- Loaded All Assemblies, in  0.485 seconds
+Registered in 0.039076 seconds.
+- Loaded All Assemblies, in  5.023 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.340 seconds
-Domain Reload Profiling: 823ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  5.612 seconds
+Domain Reload Profiling: 10633ms
+	BeginReloadAssembly (1431ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (198ms)
-		LoadAssemblies (133ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (325ms)
+	RebuildNativeTypeToScriptingClass (130ms)
+	initialDomainReloadingComplete (716ms)
+	LoadAllAssembliesAndSetupDomain (2415ms)
+		LoadAssemblies (1420ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (194ms)
-			TypeCache.Refresh (192ms)
-				TypeCache.ScanAssembly (173ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (340ms)
+		AnalyzeDomain (2371ms)
+			TypeCache.Refresh (2364ms)
+				TypeCache.ScanAssembly (2179ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (5616ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (267ms)
+		SetupLoadedEditorAssemblies (4261ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (125ms)
+			SetLoadedEditorAssemblies (106ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (185ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			BeforeProcessingInitializeOnLoad (18ms)
+			ProcessInitializeOnLoadAttributes (3400ms)
+			ProcessInitializeOnLoadMethodAttributes (612ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,60 +116,60 @@ Domain Reload Profiling: 823ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.000 seconds
-Refreshing native plugins compatible for Editor in 5.73 ms, found 3 plugins.
+- Loaded All Assemblies, in  8.494 seconds
+Refreshing native plugins compatible for Editor in 64.34 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.724 seconds
-Domain Reload Profiling: 1724ms
-	BeginReloadAssembly (232ms)
+- Finished resetting the current domain, in  9.273 seconds
+Domain Reload Profiling: 17761ms
+	BeginReloadAssembly (2051ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (66ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (656ms)
-		LoadAssemblies (475ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (139ms)
+	RebuildCommonClasses (333ms)
+	RebuildNativeTypeToScriptingClass (115ms)
+	initialDomainReloadingComplete (573ms)
+	LoadAllAssembliesAndSetupDomain (5412ms)
+		LoadAssemblies (4285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (319ms)
-			TypeCache.Refresh (275ms)
-				TypeCache.ScanAssembly (246ms)
-			ScanForSourceGeneratedMonoScriptInfo (30ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (724ms)
+		AnalyzeDomain (2586ms)
+			TypeCache.Refresh (2223ms)
+				TypeCache.ScanAssembly (2015ms)
+			ScanForSourceGeneratedMonoScriptInfo (322ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (9276ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (524ms)
+		SetupLoadedEditorAssemblies (7317ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (99ms)
+			SetLoadedEditorAssemblies (55ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (393ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (823ms)
+			ProcessInitializeOnLoadAttributes (5846ms)
+			ProcessInitializeOnLoadMethodAttributes (408ms)
+			AfterProcessingInitializeOnLoad (85ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (36ms)
+Failed to load shader (instanceID 438, GUID e008cddabe2ee464e86c31af2b5b07c9)
+Failed to load shader (instanceID 424, GUID e8f3ce2cbe4971147b1b7f04b791e52a)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.61 seconds
+Refreshing native plugins compatible for Editor in 16.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3748 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (59.2 KB). Loaded Objects now: 4235.
-Memory consumption went from 154.8 MB to 154.8 MB.
-Total: 3.747200 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.162200 ms MarkObjects: 2.899500 ms  DeleteObjects: 0.281300 ms)
+Unloading 3746 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (87.9 KB). Loaded Objects now: 4233.
+Memory consumption went from 154.2 MB to 154.1 MB.
+Total: 19.921000 ms (FindLiveObjects: 2.775700 ms CreateObjectMapping: 1.622300 ms MarkObjects: 14.437600 ms  DeleteObjects: 1.078000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -185,49 +183,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 364137.822146 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(6ae5300c5c58af345a2f1f447ae07fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(6ae5300c5c58af345a2f1f447ae07fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0d273ba214c5e30d3ee1e0a2c5a7cb') in 0.077329 seconds
+  Time since last request: 19106.427490 seconds.
+  path: Assets/TrueClouds/Textures
+  artifactKey: Guid(3f14afaf143233e4b88704d8e347cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/Textures using Guid(3f14afaf143233e4b88704d8e347cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a145bbaf8dfda943f2fbe44d6a15318') in 0.010726 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/TerrainData_3b672667-da89-4f84-8905-d57125ff5f3b.asset
-  artifactKey: Guid(47215878a04ada844a816465666316d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_3b672667-da89-4f84-8905-d57125ff5f3b.asset using Guid(47215878a04ada844a816465666316d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6877ee01b450c12824efe86f87504e6') in 0.005983 seconds
+  Time since last request: 0.519380 seconds.
+  path: Assets/TrueClouds/Scripts
+  artifactKey: Guid(8dfedab41806a5344896534e25d40feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/Scripts using Guid(8dfedab41806a5344896534e25d40feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49c6b3b12d8e45c8e9c3a37da82ea16') in 0.001278 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/NewLayer 2.terrainlayer
-  artifactKey: Guid(a19136a0f4b0e6b43bc1379c3fdf4bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer 2.terrainlayer using Guid(a19136a0f4b0e6b43bc1379c3fdf4bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50d781c19bf7de5e31d3db03a3da86f') in 0.040882 seconds
+  Time since last request: 0.828850 seconds.
+  path: Assets/TrueClouds/Textures/defaultNoise.png
+  artifactKey: Guid(ea4ad7e4f21a143478fefc813c9174ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/Textures/defaultNoise.png using Guid(ea4ad7e4f21a143478fefc813c9174ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851a1ec8426aff0d537c6c8dfc6f993f') in 0.434530 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TerrainData_f98dfbd9-c448-4ba5-8835-ae27bf9d850b.asset
-  artifactKey: Guid(0a68809817c399248a027321464360e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_f98dfbd9-c448-4ba5-8835-ae27bf9d850b.asset using Guid(0a68809817c399248a027321464360e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327be23c5fd1e8a3304cc01306d28c22') in 0.029511 seconds
+  Time since last request: 15.289037 seconds.
+  path: Assets/TrueClouds/Resources
+  artifactKey: Guid(85ea45519996fb04e93a0f5829881ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/Resources using Guid(85ea45519996fb04e93a0f5829881ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9957c481d3c249b182176c388525dacb') in 0.005061 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(ef519d643d30ea745a87ddf5ed574731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(ef519d643d30ea745a87ddf5ed574731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8837562cb900dd1e1215960221fc89b') in 0.006873 seconds
+  Time since last request: 2.094668 seconds.
+  path: Assets/TrueClouds/ExampleScenes
+  artifactKey: Guid(e9f3372c7ff492941a68c7c533d822bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes using Guid(e9f3372c7ff492941a68c7c533d822bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989a113493e189f602d06d5599aeebbb') in 0.004805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.047282 seconds.
+  path: Assets/TrueClouds/ExampleScenes/CloudRamp.png
+  artifactKey: Guid(79fc49341c0fd58439c6651b208e6370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/CloudRamp.png using Guid(79fc49341c0fd58439c6651b208e6370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7f138e9fdc729bff4d5eab9831b516') in 0.531282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.047621 seconds.
+  path: Assets/TrueClouds/ExampleScenes/Models
+  artifactKey: Guid(42f1caddfbd2c414eacc678e29f11f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/Models using Guid(42f1caddfbd2c414eacc678e29f11f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a611111b80e7436816f401a719313b4') in 0.003007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.083243 seconds.
+  path: Assets/TrueClouds/ExampleScenes/Models/cloud_01.fbx
+  artifactKey: Guid(86a54d4ab218ff7439810689af0e25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/Models/cloud_01.fbx using Guid(86a54d4ab218ff7439810689af0e25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bf4deae9c86cbb1f8928fd98c91ce8') in 4.483746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TrueClouds/ExampleScenes/Models/Dragon.prefab
+  artifactKey: Guid(804c4a1cb4804ec4380818733520aac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/Models/Dragon.prefab using Guid(804c4a1cb4804ec4380818733520aac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512bf59aebe1fd6074c02efa475a877e') in 0.691452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.212525 seconds.
+  path: Assets/TrueClouds/ExampleScenes/Models/Dragon.obj
+  artifactKey: Guid(9ceafdf3f648de847aad12d6bd4df86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/Models/Dragon.obj using Guid(9ceafdf3f648de847aad12d6bd4df86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94e0ad8c653b55518197e0b7c4446e0') in 6.057538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 2.399856 seconds.
+  path: Assets/TrueClouds/ExampleScenes/Prefabs
+  artifactKey: Guid(5c617e3ef55f078459240b066f6023a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/Prefabs using Guid(5c617e3ef55f078459240b066f6023a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9b259579349ef229258c48b2c5daad') in 0.245832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061195 seconds.
+  path: Assets/TrueClouds/ExampleScenes/Prefabs/cloud_03.prefab
+  artifactKey: Guid(fa24d737a143bf54fae3d795f39b93f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/Prefabs/cloud_03.prefab using Guid(fa24d737a143bf54fae3d795f39b93f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a63f227fb7232b659ba1eb1907abfe6') in 0.206922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.106159 seconds.
+  path: Assets/TrueClouds/ExampleScenes/Prefabs/PointLight.prefab
+  artifactKey: Guid(0423bbee91aaa304d95380207ff1455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/Prefabs/PointLight.prefab using Guid(0423bbee91aaa304d95380207ff1455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d1c4ba14adee919fdfce0abcd4e0f7') in 0.196526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 53.136902 seconds.
+  path: Assets/TrueClouds/ExampleScenes/Materials/CloudsTint.mat
+  artifactKey: Guid(9561a7d9b2e7bea4ba26b84053629b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/Materials/CloudsTint.mat using Guid(9561a7d9b2e7bea4ba26b84053629b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c039d78a1764993cbe64b40feacd75e') in 1.097087 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/New Terrain 2.asset
-  artifactKey: Guid(2e012728bb360d441a563400530a0e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 2.asset using Guid(2e012728bb360d441a563400530a0e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79578a1b63c3848df01944e3930754d9') in 0.020422 seconds
+  Time since last request: 0.000045 seconds.
+  path: Assets/TrueClouds/ExampleScenes/Materials/Skybox.mat
+  artifactKey: Guid(99351b924f1d97a4297f625ac5d45cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TrueClouds/ExampleScenes/Materials/Skybox.mat using Guid(99351b924f1d97a4297f625ac5d45cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e3738d69a2db906d47f0b73e38c6d9') in 0.110844 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
