@@ -1,0 +1,1045 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 31968 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+50446
+Successfully changed project path to: C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
+C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [50072] Host "[IP] 192.168.1.99 [Port] 0 [Flags] 2 [Guid] 3744002979 [EditorId] 3744002979 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [50072] Host "[IP] 192.168.1.99 [Port] 0 [Flags] 2 [Guid] 3744002979 [EditorId] 3744002979 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16172 MB
+    Driver:   31.0.24002.92
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003931 seconds.
+- Loaded All Assemblies, in  0.183 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.141 seconds
+Domain Reload Profiling: 324ms
+	BeginReloadAssembly (57ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (74ms)
+		LoadAssemblies (56ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (72ms)
+				TypeCache.ScanAssembly (65ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (141ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (111ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.339 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 736ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (399ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3706 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (59.5 KB). Loaded Objects now: 4199.
+Memory consumption went from 151.3 MB to 151.3 MB.
+Total: 2.530900 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.067200 ms MarkObjects: 2.194400 ms  DeleteObjects: 0.081400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseGenerator.cs: 1bf30b12c94ca7a893d906e963a37b1a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CloudsReadonlyAttribute.cs: 99fb72792ddd337215da71ed187276e7 -> 
+  custom:scripting/monoscript/fileName/PlayerHoverController.cs: 7c3b24e6003bfc3753fe4dcd628b63d3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Camera2DFollow.cs: 36d4332d4c2ffe3b416bc2a4e8365925 -> 
+  custom:scripting/monoscript/fileName/SplatMapGenerator.cs: 978523f7220bcfbfe4e97dde54f01a88 -> 
+  custom:scripting/monoscript/fileName/CloudsGenerator.cs: 3a33e63794ff4bb7342eba1e7235faf3 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/SimpleSmoothMouseLook.cs: cff7259a09eaa180476819b446c45906 -> 
+  custom:scripting/monoscript/fileName/TrueCloudsReadonlyDrawer.cs: 1a2fe270e01b7ec19dbcd6088cd52fcf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ForceGrassDistanceInEditor.cs: c02d90dd62271f0368ce2fc0457cb68c -> 
+  custom:scripting/monoscript/fileName/ScriptPerformanceMeasure.cs: 13b6165a67a72dccaac3fc401abf1c2a -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: a0c41dbc4ae6c04adf898e43aaff908a -> 
+  custom:scripting/monoscript/fileName/CloudCamera.cs: b3989901aff0d8dff40fdba5a2660336 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PlaceOnSurfaceAtStart.cs: 6425012b1be9be14fc1a64db64d75783 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CircleMoverSample.cs: abdbac9546c68b758ba1e8d085187f86 -> 
+  custom:scripting/monoscript/fileName/SpawnInArea.cs: d58f698a91ea9cb4b48b0bb3ab224695 -> 
+  custom:scripting/monoscript/fileName/TreeExplosion.cs: ff76bbd7bd3d2bad80b109a5f521d638 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TerrainTools.cs: 0a67150dc84c7f556953f508bb42ee41 -> 
+  custom:scripting/monoscript/fileName/CloudCameraEditor.cs: e9fa8c0208c19da0f60ac65bb1c44aa8 -> 
+  custom:scripting/monoscript/fileName/TerrainQualitySettings.cs: 97d80f5eabf04f6efb29519e09b7914e -> 
+  custom:scripting/monoscript/fileName/RandomObjectMap.cs: c5c361040658a3dbeb1ecde31a0ba042 -> 
+  custom:scripting/monoscript/fileName/FPS60.cs: f54ec3dc7ea7d7eb92522b7f4976f75d -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TTTools2D.cs: 938225aaf3ff01b2de05233ebd91ba4b -> 
+  custom:scripting/monoscript/fileName/CloudCamera3D.cs: c7de6b54486caeaa7c551e3ef466fac9 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaceOnTerrain.cs: 16680a467d31626be1291a9d1cb5e268 -> 
+  custom:scripting/monoscript/fileName/CloudPointLight.cs: 480b2910262c24ea5f1bc0107ffaf65a -> 
+  custom:scripting/monoscript/fileName/IncrementalSplatmapping.cs: 4c2306b73b507e70f0971eb6fe596f3e -> 
+  custom:scripting/monoscript/fileName/ClearWaterLevel.cs: 63b8059750396ec04cedbc48fec03d0d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/KeepOnSurface.cs: b5186260965dd31cfcb27dea430d35ae -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13417.046833 seconds.
+  path: Assets/Otros/TURBOSQUID/Animacion/Proyectos/3D/BnW_prj/scenes
+  artifactKey: Guid(2dc26bdfe985ed8419b00d629a61b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Otros/TURBOSQUID/Animacion/Proyectos/3D/BnW_prj/scenes using Guid(2dc26bdfe985ed8419b00d629a61b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b9a39b4ac452cf4c065e38a962743a') in 0.001580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.797980 seconds.
+  path: Assets/Otros/TURBOSQUID/Animacion/Proyectos/3D/BnW_prj/scenes/Grua.mb
+  artifactKey: Guid(672423f3c51aef9408e67ce02c55f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Otros/TURBOSQUID/Animacion/Proyectos/3D/BnW_prj/scenes/Grua.mb using Guid(672423f3c51aef9408e67ce02c55f50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4ee204c5ca732f42569704df3d4e8e') in 0.005162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.672110 seconds.
+  path: Assets/Otros/TURBOSQUID/Animacion/Proyectos/3D/BnW_prj/sourceimages/Materials
+  artifactKey: Guid(14d5c355774173741beeccc7639709e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Otros/TURBOSQUID/Animacion/Proyectos/3D/BnW_prj/sourceimages/Materials using Guid(14d5c355774173741beeccc7639709e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc12bd2cf64b9390076a63e1669cfcd') in 0.000328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067800 seconds.
+  path: Assets/Otros/TURBOSQUID/Animacion/Proyectos/3D/BnW_prj/sourceimages/Materials/gruaTx_GruaMat_Specular.mat
+  artifactKey: Guid(931a1167f8d9e92439a6307656c6fc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Otros/TURBOSQUID/Animacion/Proyectos/3D/BnW_prj/sourceimages/Materials/gruaTx_GruaMat_Specular.mat using Guid(931a1167f8d9e92439a6307656c6fc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac17be071cf448e6bfdd5db34070949b') in 0.055166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1586.207966 seconds.
+  path: Assets/crane
+  artifactKey: Guid(f44ab083f562a964e8a9d2bc8d44e95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane using Guid(f44ab083f562a964e8a9d2bc8d44e95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725fd367741cc07d87508b87700dda70') in 0.000386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.897293 seconds.
+  path: Assets/crane/source
+  artifactKey: Guid(a1fee49d95e72ed44ba952231af892aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/source using Guid(a1fee49d95e72ed44ba952231af892aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdeb47ca59a4b22f9d755d6c24ad75f3') in 0.000284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077858 seconds.
+  path: Assets/crane/textures
+  artifactKey: Guid(09c54fcd998675844b0fee3568a89129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures using Guid(09c54fcd998675844b0fee3568a89129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90c2c77faf7a6248f62d9fa7757ee79') in 0.000251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073660 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_attaches-haut_AlbedoTranspa.png
+  artifactKey: Guid(b7c3edcd4593ab848a4b1e31ecabbfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_attaches-haut_AlbedoTranspa.png using Guid(b7c3edcd4593ab848a4b1e31ecabbfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4429cc5beed70ed27fc89dfff6821ee') in 0.015144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_attaches-haut_Normal.png
+  artifactKey: Guid(9d870be570a35bc4abf7b001df2acc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_attaches-haut_Normal.png using Guid(9d870be570a35bc4abf7b001df2acc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9db76957fef0387d22f84b085399521') in 0.010795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_cabine_MetallicSmoothness.png
+  artifactKey: Guid(eb8b5cd140127614f93837ff5f9f7eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_cabine_MetallicSmoothness.png using Guid(eb8b5cd140127614f93837ff5f9f7eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239b415c230cef18f9fbabadbcaf28bf') in 0.011105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_corps-metal_MetallicSmoothn.png
+  artifactKey: Guid(7bd21575fdb2c0e4195b15fa76fdb652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_corps-metal_MetallicSmoothn.png using Guid(7bd21575fdb2c0e4195b15fa76fdb652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084bf62b801ec43a8b09c6be8aab5e8f') in 0.009079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_echelle_AlbedoTransparency.png
+  artifactKey: Guid(86e65a1a1478cef498517f341590a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_echelle_AlbedoTransparency.png using Guid(86e65a1a1478cef498517f341590a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267ea2e55de299b0964acd0ae8892827') in 0.008845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_grue-barrieres-support_Albe.png
+  artifactKey: Guid(447a918861be79645812d7766fba286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_grue-barrieres-support_Albe.png using Guid(447a918861be79645812d7766fba286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adde4c0787828b13a05f1fc72744109f') in 0.008544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_haut-gris_AlbedoTransparenc.png
+  artifactKey: Guid(f7ac09c845cb0944e9e20edc5b63fed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_haut-gris_AlbedoTransparenc.png using Guid(f7ac09c845cb0944e9e20edc5b63fed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dff1519db6bdba14800f5bb501044a') in 0.009110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_pied-support_AlbedoTranspar.png
+  artifactKey: Guid(cb1d7bcb02f8cd8499735d258ceb00a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_pied-support_AlbedoTranspar.png using Guid(cb1d7bcb02f8cd8499735d258ceb00a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad472bbe16b434c1a09538e7f3ccd6c') in 0.009136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_plateforme-haut_MetallicSmo.png
+  artifactKey: Guid(171ffcc845ee5b24286272546cef149d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_plateforme-haut_MetallicSmo.png using Guid(171ffcc845ee5b24286272546cef149d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fea6cfe5eb264f84d0bd2153ea2ce40') in 0.005707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_plateforme_MetallicSmoothne.png
+  artifactKey: Guid(3d95e088220ac794c9371c33311ee61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_plateforme_MetallicSmoothne.png using Guid(3d95e088220ac794c9371c33311ee61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2db9c8fda7c398cc973ee89a120006') in 0.009286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_poulis-support_AlbedoTransp.png
+  artifactKey: Guid(7bbbd92406fbe3a4b9280e93df45ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_poulis-support_AlbedoTransp.png using Guid(7bbbd92406fbe3a4b9280e93df45ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecdc654186e7e639d542ccb586f3a40') in 0.010527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_pied-attache_AlbedoTranspar.png
+  artifactKey: Guid(322cac10dd0bc554a95d8abfac03f214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_pied-attache_AlbedoTranspar.png using Guid(322cac10dd0bc554a95d8abfac03f214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6607e9220e91f64db01b6f0102e5b05a') in 0.006422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_grue-accroche_Normal.png
+  artifactKey: Guid(ac9afa499a03f9147a6eeea61eb35d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_grue-accroche_Normal.png using Guid(ac9afa499a03f9147a6eeea61eb35d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c6c90aef3fce25b92081d71164d11f') in 0.009930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_grue-barrieres_MetallicSmoo.png
+  artifactKey: Guid(1b22aea2c54c10c4782eb7c609eaa4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_grue-barrieres_MetallicSmoo.png using Guid(1b22aea2c54c10c4782eb7c609eaa4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28874d49eac573c55662db011373892b') in 0.006147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_corps-haut-1_Normal.png
+  artifactKey: Guid(4270b905bc4bd594c874a7317e5dfed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_corps-haut-1_Normal.png using Guid(4270b905bc4bd594c874a7317e5dfed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c4c0318a12225d11b84eb8ce3b3a0a') in 0.008992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_plateforme-haut_AlbedoTrans.png
+  artifactKey: Guid(ea3f7e5d19d9b52408f072f89e740f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_plateforme-haut_AlbedoTrans.png using Guid(ea3f7e5d19d9b52408f072f89e740f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4086bcecafc4c5ff7944d0fa2f4ecf') in 0.005689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_grue-accroche_AlbedoTranspa.png
+  artifactKey: Guid(126cf377388c2804f92267d1fd7a6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_grue-accroche_AlbedoTranspa.png using Guid(126cf377388c2804f92267d1fd7a6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5260378b5af7c3a1281690bf63e461a') in 0.009945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_echelle_Normal.png
+  artifactKey: Guid(eb0b545ae08072d44b7b9b0a1d9d87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_echelle_Normal.png using Guid(eb0b545ae08072d44b7b9b0a1d9d87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27fb3c0090e031527defb98dea5c16d') in 0.008625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_poulie_Normal.png
+  artifactKey: Guid(7a6fca15917c6bc4bb0ec55887ae2a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_poulie_Normal.png using Guid(7a6fca15917c6bc4bb0ec55887ae2a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dab9d542f1a2f7dfa7cc0bb522d9d6a') in 0.008628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_beton-haut_AlbedoTransparen.png
+  artifactKey: Guid(4213261d69940e441a075b49739407f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_beton-haut_AlbedoTransparen.png using Guid(4213261d69940e441a075b49739407f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde5ae69800defb396417e8d64f136cb') in 0.009517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_grue-barrieres-support_Norm.png
+  artifactKey: Guid(9bd2240ad64143546a2f8bdb766b00e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_grue-barrieres-support_Norm.png using Guid(9bd2240ad64143546a2f8bdb766b00e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8962a1bce2259ed778f444723f517e16') in 0.009995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_corps-haut-1_MetallicSmooth.png
+  artifactKey: Guid(c7ca53a22ee9a9041b262f472678bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_corps-haut-1_MetallicSmooth.png using Guid(c7ca53a22ee9a9041b262f472678bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287147d0719c473cb56c4994833edc41') in 0.009321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_plateforme_AlbedoTransparen.png
+  artifactKey: Guid(3b10775958a6efe47ba588af771b32fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_plateforme_AlbedoTransparen.png using Guid(3b10775958a6efe47ba588af771b32fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e413618ada95dd2376e1053bf3d84f81') in 0.010059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_haut-jaune_Normal.png
+  artifactKey: Guid(4bf3906c56907284fafc55c3e5438e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_haut-jaune_Normal.png using Guid(4bf3906c56907284fafc55c3e5438e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62e123a9bcba76a01b403b410eeb73d') in 0.009834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_corps-top_AlbedoTransparenc.png
+  artifactKey: Guid(21b55282b65197648995fddf4d8acc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_corps-top_AlbedoTransparenc.png using Guid(21b55282b65197648995fddf4d8acc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f1ff86c9d1261ad6a4a96b488b8bca') in 0.011071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_pied-barre_Normal.png
+  artifactKey: Guid(9f1d6e0a3defd1d478747cb1f0354300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_pied-barre_Normal.png using Guid(9f1d6e0a3defd1d478747cb1f0354300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b06fd7b3e44678ffb29bfdaa09b386') in 0.010484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_corps-bord-metal_AlbedoTran.png
+  artifactKey: Guid(614165d78e8f1854da8544d059e89b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_corps-bord-metal_AlbedoTran.png using Guid(614165d78e8f1854da8544d059e89b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dd8e6f5278945c6b758516e340126d') in 0.011205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_cabine_AlbedoTransparency.png
+  artifactKey: Guid(8c1ec94116ecdac4ea04fe640a9f6304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_cabine_AlbedoTransparency.png using Guid(8c1ec94116ecdac4ea04fe640a9f6304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962db02ef00f33dff0df2ab3bff488e1') in 0.010962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_corps-top_Normal.png
+  artifactKey: Guid(386575d634cc59046bb74a485dc93a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_corps-top_Normal.png using Guid(386575d634cc59046bb74a485dc93a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6a9d9212bf837829329c967db48019') in 0.009824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_pied-support_MetallicSmooth.png
+  artifactKey: Guid(6c2c30bc7b5176e41bca456b14266db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_pied-support_MetallicSmooth.png using Guid(6c2c30bc7b5176e41bca456b14266db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f30e67525bbc79788a7cd6c15ad2959') in 0.006673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_poulie_AlbedoTransparency.png
+  artifactKey: Guid(3b432dbd3f78e1a4ba72fdef1e323690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_poulie_AlbedoTransparency.png using Guid(3b432dbd3f78e1a4ba72fdef1e323690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e233d0c3e19444046787c7b3681fa0a3') in 0.010421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_poulie_MetallicSmoothness.png
+  artifactKey: Guid(3e7e4c3a5eb920140a21b3aec997e946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_poulie_MetallicSmoothness.png using Guid(3e7e4c3a5eb920140a21b3aec997e946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a78136488fac8b84b44a3fd05978681') in 0.010553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_cable-haut_MetallicSmoothne.png
+  artifactKey: Guid(30a8b48874b805c40baa0b0234de2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_cable-haut_MetallicSmoothne.png using Guid(30a8b48874b805c40baa0b0234de2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3bd9226c4f505ccd23778e5ec5c023') in 0.006150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_support_MetallicSmoothness.png
+  artifactKey: Guid(92ee59d7f35f5054d829f5763a7c943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_support_MetallicSmoothness.png using Guid(92ee59d7f35f5054d829f5763a7c943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a8a155f03b14dedd3468a70e3796bd') in 0.009142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_haut-gris_MetallicSmoothnes.png
+  artifactKey: Guid(0d1eed44391a87148bd80cbfd08e4263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_haut-gris_MetallicSmoothnes.png using Guid(0d1eed44391a87148bd80cbfd08e4263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34f3767054dcafa7a20e35496a19d81') in 0.010375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/crane/textures/grue-unwrap-v2_beton-haut_Normal.png
+  artifactKey: Guid(7f7d197844402d145abc7986b7d055af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/textures/grue-unwrap-v2_beton-haut_Normal.png using Guid(7f7d197844402d145abc7986b7d055af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f641f63ebc0d11a8da778a2b1d572c7') in 0.010301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.005469 seconds.
+  path: Assets/crane/source/grue-unwrap-v2.fbx
+  artifactKey: Guid(c8222361888d42747ac4c233962e2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crane/source/grue-unwrap-v2.fbx using Guid(c8222361888d42747ac4c233962e2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97c3c6ae3d46e43a381972d2e98650c') in 0.223508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 416
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.251 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.616 seconds
+Domain Reload Profiling: 865ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (616ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3696 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.7 KB). Loaded Objects now: 4247.
+Memory consumption went from 156.1 MB to 156.1 MB.
+Total: 2.369500 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.067600 ms  DeleteObjects: 0.037200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseGenerator.cs: 1bf30b12c94ca7a893d906e963a37b1a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CloudsReadonlyAttribute.cs: 99fb72792ddd337215da71ed187276e7 -> 
+  custom:scripting/monoscript/fileName/PlayerHoverController.cs: 7c3b24e6003bfc3753fe4dcd628b63d3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Camera2DFollow.cs: 36d4332d4c2ffe3b416bc2a4e8365925 -> 
+  custom:scripting/monoscript/fileName/SplatMapGenerator.cs: 978523f7220bcfbfe4e97dde54f01a88 -> 
+  custom:scripting/monoscript/fileName/CloudsGenerator.cs: 3a33e63794ff4bb7342eba1e7235faf3 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/SimpleSmoothMouseLook.cs: cff7259a09eaa180476819b446c45906 -> 
+  custom:scripting/monoscript/fileName/TrueCloudsReadonlyDrawer.cs: 1a2fe270e01b7ec19dbcd6088cd52fcf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ForceGrassDistanceInEditor.cs: c02d90dd62271f0368ce2fc0457cb68c -> 
+  custom:scripting/monoscript/fileName/ScriptPerformanceMeasure.cs: 13b6165a67a72dccaac3fc401abf1c2a -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: a0c41dbc4ae6c04adf898e43aaff908a -> 
+  custom:scripting/monoscript/fileName/CloudCamera.cs: b3989901aff0d8dff40fdba5a2660336 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PlaceOnSurfaceAtStart.cs: 6425012b1be9be14fc1a64db64d75783 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CircleMoverSample.cs: abdbac9546c68b758ba1e8d085187f86 -> 
+  custom:scripting/monoscript/fileName/SpawnInArea.cs: d58f698a91ea9cb4b48b0bb3ab224695 -> 
+  custom:scripting/monoscript/fileName/TreeExplosion.cs: ff76bbd7bd3d2bad80b109a5f521d638 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TerrainTools.cs: 0a67150dc84c7f556953f508bb42ee41 -> 
+  custom:scripting/monoscript/fileName/CloudCameraEditor.cs: e9fa8c0208c19da0f60ac65bb1c44aa8 -> 
+  custom:scripting/monoscript/fileName/TerrainQualitySettings.cs: 97d80f5eabf04f6efb29519e09b7914e -> 
+  custom:scripting/monoscript/fileName/RandomObjectMap.cs: c5c361040658a3dbeb1ecde31a0ba042 -> 
+  custom:scripting/monoscript/fileName/FPS60.cs: f54ec3dc7ea7d7eb92522b7f4976f75d -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TTTools2D.cs: 938225aaf3ff01b2de05233ebd91ba4b -> 
+  custom:scripting/monoscript/fileName/CloudCamera3D.cs: c7de6b54486caeaa7c551e3ef466fac9 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaceOnTerrain.cs: 16680a467d31626be1291a9d1cb5e268 -> 
+  custom:scripting/monoscript/fileName/CloudPointLight.cs: 480b2910262c24ea5f1bc0107ffaf65a -> 
+  custom:scripting/monoscript/fileName/IncrementalSplatmapping.cs: 4c2306b73b507e70f0971eb6fe596f3e -> 
+  custom:scripting/monoscript/fileName/ClearWaterLevel.cs: 63b8059750396ec04cedbc48fec03d0d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/KeepOnSurface.cs: b5186260965dd31cfcb27dea430d35ae -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.240 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 841ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3697 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.6 KB). Loaded Objects now: 4250.
+Memory consumption went from 158.3 MB to 158.3 MB.
+Total: 2.524100 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.179900 ms  DeleteObjects: 0.035700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseGenerator.cs: 1bf30b12c94ca7a893d906e963a37b1a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CloudsReadonlyAttribute.cs: 99fb72792ddd337215da71ed187276e7 -> 
+  custom:scripting/monoscript/fileName/PlayerHoverController.cs: 7c3b24e6003bfc3753fe4dcd628b63d3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Camera2DFollow.cs: 36d4332d4c2ffe3b416bc2a4e8365925 -> 
+  custom:scripting/monoscript/fileName/SplatMapGenerator.cs: 978523f7220bcfbfe4e97dde54f01a88 -> 
+  custom:scripting/monoscript/fileName/CloudsGenerator.cs: 3a33e63794ff4bb7342eba1e7235faf3 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/SimpleSmoothMouseLook.cs: cff7259a09eaa180476819b446c45906 -> 
+  custom:scripting/monoscript/fileName/TrueCloudsReadonlyDrawer.cs: 1a2fe270e01b7ec19dbcd6088cd52fcf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ForceGrassDistanceInEditor.cs: c02d90dd62271f0368ce2fc0457cb68c -> 
+  custom:scripting/monoscript/fileName/ScriptPerformanceMeasure.cs: 13b6165a67a72dccaac3fc401abf1c2a -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: a0c41dbc4ae6c04adf898e43aaff908a -> 
+  custom:scripting/monoscript/fileName/CloudCamera.cs: b3989901aff0d8dff40fdba5a2660336 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PlaceOnSurfaceAtStart.cs: 6425012b1be9be14fc1a64db64d75783 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CircleMoverSample.cs: abdbac9546c68b758ba1e8d085187f86 -> 
+  custom:scripting/monoscript/fileName/SpawnInArea.cs: d58f698a91ea9cb4b48b0bb3ab224695 -> 
+  custom:scripting/monoscript/fileName/TreeExplosion.cs: ff76bbd7bd3d2bad80b109a5f521d638 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TerrainTools.cs: 0a67150dc84c7f556953f508bb42ee41 -> 
+  custom:scripting/monoscript/fileName/CloudCameraEditor.cs: e9fa8c0208c19da0f60ac65bb1c44aa8 -> 
+  custom:scripting/monoscript/fileName/TerrainQualitySettings.cs: 97d80f5eabf04f6efb29519e09b7914e -> 
+  custom:scripting/monoscript/fileName/RandomObjectMap.cs: c5c361040658a3dbeb1ecde31a0ba042 -> 
+  custom:scripting/monoscript/fileName/FPS60.cs: f54ec3dc7ea7d7eb92522b7f4976f75d -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TTTools2D.cs: 938225aaf3ff01b2de05233ebd91ba4b -> 
+  custom:scripting/monoscript/fileName/CloudCamera3D.cs: c7de6b54486caeaa7c551e3ef466fac9 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaceOnTerrain.cs: 16680a467d31626be1291a9d1cb5e268 -> 
+  custom:scripting/monoscript/fileName/CloudPointLight.cs: 480b2910262c24ea5f1bc0107ffaf65a -> 
+  custom:scripting/monoscript/fileName/IncrementalSplatmapping.cs: 4c2306b73b507e70f0971eb6fe596f3e -> 
+  custom:scripting/monoscript/fileName/ClearWaterLevel.cs: 63b8059750396ec04cedbc48fec03d0d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/KeepOnSurface.cs: b5186260965dd31cfcb27dea430d35ae -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.239 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (596ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (325ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3697 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.6 KB). Loaded Objects now: 4253.
+Memory consumption went from 160.3 MB to 160.2 MB.
+Total: 2.218300 ms (FindLiveObjects: 0.193000 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.941300 ms  DeleteObjects: 0.035100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseGenerator.cs: 1bf30b12c94ca7a893d906e963a37b1a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CloudsReadonlyAttribute.cs: 99fb72792ddd337215da71ed187276e7 -> 
+  custom:scripting/monoscript/fileName/PlayerHoverController.cs: 7c3b24e6003bfc3753fe4dcd628b63d3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Camera2DFollow.cs: 36d4332d4c2ffe3b416bc2a4e8365925 -> 
+  custom:scripting/monoscript/fileName/SplatMapGenerator.cs: 978523f7220bcfbfe4e97dde54f01a88 -> 
+  custom:scripting/monoscript/fileName/CloudsGenerator.cs: 3a33e63794ff4bb7342eba1e7235faf3 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/SimpleSmoothMouseLook.cs: cff7259a09eaa180476819b446c45906 -> 
+  custom:scripting/monoscript/fileName/TrueCloudsReadonlyDrawer.cs: 1a2fe270e01b7ec19dbcd6088cd52fcf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ForceGrassDistanceInEditor.cs: c02d90dd62271f0368ce2fc0457cb68c -> 
+  custom:scripting/monoscript/fileName/ScriptPerformanceMeasure.cs: 13b6165a67a72dccaac3fc401abf1c2a -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: a0c41dbc4ae6c04adf898e43aaff908a -> 
+  custom:scripting/monoscript/fileName/CloudCamera.cs: b3989901aff0d8dff40fdba5a2660336 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PlaceOnSurfaceAtStart.cs: 6425012b1be9be14fc1a64db64d75783 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CircleMoverSample.cs: abdbac9546c68b758ba1e8d085187f86 -> 
+  custom:scripting/monoscript/fileName/SpawnInArea.cs: d58f698a91ea9cb4b48b0bb3ab224695 -> 
+  custom:scripting/monoscript/fileName/TreeExplosion.cs: ff76bbd7bd3d2bad80b109a5f521d638 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TerrainTools.cs: 0a67150dc84c7f556953f508bb42ee41 -> 
+  custom:scripting/monoscript/fileName/CloudCameraEditor.cs: e9fa8c0208c19da0f60ac65bb1c44aa8 -> 
+  custom:scripting/monoscript/fileName/TerrainQualitySettings.cs: 97d80f5eabf04f6efb29519e09b7914e -> 
+  custom:scripting/monoscript/fileName/RandomObjectMap.cs: c5c361040658a3dbeb1ecde31a0ba042 -> 
+  custom:scripting/monoscript/fileName/FPS60.cs: f54ec3dc7ea7d7eb92522b7f4976f75d -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TTTools2D.cs: 938225aaf3ff01b2de05233ebd91ba4b -> 
+  custom:scripting/monoscript/fileName/CloudCamera3D.cs: c7de6b54486caeaa7c551e3ef466fac9 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaceOnTerrain.cs: 16680a467d31626be1291a9d1cb5e268 -> 
+  custom:scripting/monoscript/fileName/CloudPointLight.cs: 480b2910262c24ea5f1bc0107ffaf65a -> 
+  custom:scripting/monoscript/fileName/IncrementalSplatmapping.cs: 4c2306b73b507e70f0971eb6fe596f3e -> 
+  custom:scripting/monoscript/fileName/ClearWaterLevel.cs: 63b8059750396ec04cedbc48fec03d0d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/KeepOnSurface.cs: b5186260965dd31cfcb27dea430d35ae -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.246 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.604 seconds
+Domain Reload Profiling: 849ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (148ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3697 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.6 KB). Loaded Objects now: 4256.
+Memory consumption went from 162.2 MB to 162.2 MB.
+Total: 2.453700 ms (FindLiveObjects: 0.223200 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.111000 ms  DeleteObjects: 0.039900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseGenerator.cs: 1bf30b12c94ca7a893d906e963a37b1a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CloudsReadonlyAttribute.cs: 99fb72792ddd337215da71ed187276e7 -> 
+  custom:scripting/monoscript/fileName/PlayerHoverController.cs: 7c3b24e6003bfc3753fe4dcd628b63d3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Camera2DFollow.cs: 36d4332d4c2ffe3b416bc2a4e8365925 -> 
+  custom:scripting/monoscript/fileName/SplatMapGenerator.cs: 978523f7220bcfbfe4e97dde54f01a88 -> 
+  custom:scripting/monoscript/fileName/CloudsGenerator.cs: 3a33e63794ff4bb7342eba1e7235faf3 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/SimpleSmoothMouseLook.cs: cff7259a09eaa180476819b446c45906 -> 
+  custom:scripting/monoscript/fileName/TrueCloudsReadonlyDrawer.cs: 1a2fe270e01b7ec19dbcd6088cd52fcf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ForceGrassDistanceInEditor.cs: c02d90dd62271f0368ce2fc0457cb68c -> 
+  custom:scripting/monoscript/fileName/ScriptPerformanceMeasure.cs: 13b6165a67a72dccaac3fc401abf1c2a -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: a0c41dbc4ae6c04adf898e43aaff908a -> 
+  custom:scripting/monoscript/fileName/CloudCamera.cs: b3989901aff0d8dff40fdba5a2660336 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PlaceOnSurfaceAtStart.cs: 6425012b1be9be14fc1a64db64d75783 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CircleMoverSample.cs: abdbac9546c68b758ba1e8d085187f86 -> 
+  custom:scripting/monoscript/fileName/SpawnInArea.cs: d58f698a91ea9cb4b48b0bb3ab224695 -> 
+  custom:scripting/monoscript/fileName/TreeExplosion.cs: ff76bbd7bd3d2bad80b109a5f521d638 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TerrainTools.cs: 0a67150dc84c7f556953f508bb42ee41 -> 
+  custom:scripting/monoscript/fileName/CloudCameraEditor.cs: e9fa8c0208c19da0f60ac65bb1c44aa8 -> 
+  custom:scripting/monoscript/fileName/TerrainQualitySettings.cs: 97d80f5eabf04f6efb29519e09b7914e -> 
+  custom:scripting/monoscript/fileName/RandomObjectMap.cs: c5c361040658a3dbeb1ecde31a0ba042 -> 
+  custom:scripting/monoscript/fileName/FPS60.cs: f54ec3dc7ea7d7eb92522b7f4976f75d -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TTTools2D.cs: 938225aaf3ff01b2de05233ebd91ba4b -> 
+  custom:scripting/monoscript/fileName/CloudCamera3D.cs: c7de6b54486caeaa7c551e3ef466fac9 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaceOnTerrain.cs: 16680a467d31626be1291a9d1cb5e268 -> 
+  custom:scripting/monoscript/fileName/CloudPointLight.cs: 480b2910262c24ea5f1bc0107ffaf65a -> 
+  custom:scripting/monoscript/fileName/IncrementalSplatmapping.cs: 4c2306b73b507e70f0971eb6fe596f3e -> 
+  custom:scripting/monoscript/fileName/ClearWaterLevel.cs: 63b8059750396ec04cedbc48fec03d0d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/KeepOnSurface.cs: b5186260965dd31cfcb27dea430d35ae -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.243 seconds
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 865ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3697 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.7 KB). Loaded Objects now: 4259.
+Memory consumption went from 164.1 MB to 164.1 MB.
+Total: 2.365900 ms (FindLiveObjects: 0.206100 ms CreateObjectMapping: 0.064400 ms MarkObjects: 2.059100 ms  DeleteObjects: 0.035700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/NoiseGenerator.cs: 1bf30b12c94ca7a893d906e963a37b1a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CloudsReadonlyAttribute.cs: 99fb72792ddd337215da71ed187276e7 -> 
+  custom:scripting/monoscript/fileName/PlayerHoverController.cs: 7c3b24e6003bfc3753fe4dcd628b63d3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Camera2DFollow.cs: 36d4332d4c2ffe3b416bc2a4e8365925 -> 
+  custom:scripting/monoscript/fileName/SplatMapGenerator.cs: 978523f7220bcfbfe4e97dde54f01a88 -> 
+  custom:scripting/monoscript/fileName/CloudsGenerator.cs: 3a33e63794ff4bb7342eba1e7235faf3 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/SimpleSmoothMouseLook.cs: cff7259a09eaa180476819b446c45906 -> 
+  custom:scripting/monoscript/fileName/TrueCloudsReadonlyDrawer.cs: 1a2fe270e01b7ec19dbcd6088cd52fcf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ForceGrassDistanceInEditor.cs: c02d90dd62271f0368ce2fc0457cb68c -> 
+  custom:scripting/monoscript/fileName/ScriptPerformanceMeasure.cs: 13b6165a67a72dccaac3fc401abf1c2a -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: a0c41dbc4ae6c04adf898e43aaff908a -> 
+  custom:scripting/monoscript/fileName/CloudCamera.cs: b3989901aff0d8dff40fdba5a2660336 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PlaceOnSurfaceAtStart.cs: 6425012b1be9be14fc1a64db64d75783 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CircleMoverSample.cs: abdbac9546c68b758ba1e8d085187f86 -> 
+  custom:scripting/monoscript/fileName/SpawnInArea.cs: d58f698a91ea9cb4b48b0bb3ab224695 -> 
+  custom:scripting/monoscript/fileName/TreeExplosion.cs: ff76bbd7bd3d2bad80b109a5f521d638 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TerrainTools.cs: 0a67150dc84c7f556953f508bb42ee41 -> 
+  custom:scripting/monoscript/fileName/CloudCameraEditor.cs: e9fa8c0208c19da0f60ac65bb1c44aa8 -> 
+  custom:scripting/monoscript/fileName/TerrainQualitySettings.cs: 97d80f5eabf04f6efb29519e09b7914e -> 
+  custom:scripting/monoscript/fileName/RandomObjectMap.cs: c5c361040658a3dbeb1ecde31a0ba042 -> 
+  custom:scripting/monoscript/fileName/FPS60.cs: f54ec3dc7ea7d7eb92522b7f4976f75d -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TTTools2D.cs: 938225aaf3ff01b2de05233ebd91ba4b -> 
+  custom:scripting/monoscript/fileName/CloudCamera3D.cs: c7de6b54486caeaa7c551e3ef466fac9 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaceOnTerrain.cs: 16680a467d31626be1291a9d1cb5e268 -> 
+  custom:scripting/monoscript/fileName/CloudPointLight.cs: 480b2910262c24ea5f1bc0107ffaf65a -> 
+  custom:scripting/monoscript/fileName/IncrementalSplatmapping.cs: 4c2306b73b507e70f0971eb6fe596f3e -> 
+  custom:scripting/monoscript/fileName/ClearWaterLevel.cs: 63b8059750396ec04cedbc48fec03d0d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/KeepOnSurface.cs: b5186260965dd31cfcb27dea430d35ae -> 
