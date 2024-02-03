@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638424991258714316
+      ticks: 638425611948249791
     m_Hash: 735118160
   m_LockFileStatus:
     m_FilePath: C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638424991258714316
+      ticks: 638425611948260533
     m_Hash: 3361696164
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -467,6 +467,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.5
     - 3.2.0-pre.6
     - 3.2.0-pre.7
+    - 3.2.0-pre.8
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -479,6 +480,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.5
     - 3.2.0-pre.6
     - 3.2.0-pre.7
+    - 3.2.0-pre.8
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.7
