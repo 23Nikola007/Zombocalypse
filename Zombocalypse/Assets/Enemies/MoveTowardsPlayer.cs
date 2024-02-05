@@ -29,6 +29,7 @@ public class MOv : MonoBehaviour
         {
             GameObject Target = GameObject.FindWithTag("Player");
             Vector3 targetPos = Target.transform.position;
+            targetPos.y = 0.00005f;
             Rigidbody rb = gameObject.GetComponent<Rigidbody>();
             rb.velocity = speed * (new Vector3(targetPos.x, 0, targetPos.z) - new Vector3(FollowerPos.x, 0, FollowerPos.z)).normalized;
             gameObject.transform.LookAt(new Vector3(targetPos.x, gameObject.transform.position.y, targetPos.z));
