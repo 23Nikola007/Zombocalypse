@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 8063 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 31968 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker5
 -projectPath
-C:/Users/gimn desni/Documents/GitHub/Zombocalypse/Zombocalypse
+C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-51702
-Successfully changed project path to: C:/Users/gimn desni/Documents/GitHub/Zombocalypse/Zombocalypse
-C:/Users/gimn desni/Documents/GitHub/Zombocalypse/Zombocalypse
+54640
+Successfully changed project path to: C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
+C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,67 @@ C:/Users/gimn desni/Documents/GitHub/Zombocalypse/Zombocalypse
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12216] Host "[IP] 10.65.11.156 [Port] 0 [Flags] 2 [Guid] 1597382859 [EditorId] 1597382859 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q7SCP4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [43712] Host "[IP] 192.168.1.99 [Port] 0 [Flags] 2 [Guid] 1232059213 [EditorId] 1232059213 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12216] Host "[IP] 10.65.11.156 [Port] 0 [Flags] 2 [Guid] 1597382859 [EditorId] 1597382859 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q7SCP4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [43712] Host "[IP] 192.168.1.99 [Port] 0 [Flags] 2 [Guid] 1232059213 [EditorId] 1232059213 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 1 workers.
-Refreshing native plugins compatible for Editor in 30.67 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gimn desni/Documents/GitHub/Zombocalypse/Zombocalypse/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics (ID=0x152)
-    Vendor:   Intel
-    VRAM:     128 MB
-    Driver:   10.18.10.4252
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16172 MB
+    Driver:   31.0.24002.92
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012714 seconds.
-- Loaded All Assemblies, in  0.737 seconds
+Registered in 0.003277 seconds.
+- Loaded All Assemblies, in  0.186 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.535 seconds
-Domain Reload Profiling: 1271ms
-	BeginReloadAssembly (229ms)
+- Finished resetting the current domain, in  0.136 seconds
+Domain Reload Profiling: 322ms
+	BeginReloadAssembly (62ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (126ms)
-	LoadAllAssembliesAndSetupDomain (282ms)
-		LoadAssemblies (225ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (70ms)
+		LoadAssemblies (61ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (279ms)
-			TypeCache.Refresh (275ms)
-				TypeCache.ScanAssembly (251ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (536ms)
+		AnalyzeDomain (69ms)
+			TypeCache.Refresh (68ms)
+				TypeCache.ScanAssembly (62ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (137ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (420ms)
+		SetupLoadedEditorAssemblies (107ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,71 +118,63 @@ Domain Reload Profiling: 1271ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.268 seconds
-Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.334 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.165 seconds
-Domain Reload Profiling: 2429ms
-	BeginReloadAssembly (284ms)
+- Finished resetting the current domain, in  0.369 seconds
+Domain Reload Profiling: 702ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (818ms)
-		LoadAssemblies (605ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (153ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (377ms)
-			TypeCache.Refresh (334ms)
-				TypeCache.ScanAssembly (306ms)
-			ScanForSourceGeneratedMonoScriptInfo (34ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1166ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (82ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (369ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (821ms)
+		SetupLoadedEditorAssemblies (297ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (124ms)
-			ProcessInitializeOnLoadAttributes (605ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Failed to load shader (instanceID 450, GUID dd89cf5b9246416f84610a006f916af7)
-Failed to load shader (instanceID 452, GUID 14eb328de4b8eb245bb7cea29e4ac00b)
-Failed to load shader (instanceID 454, GUID 68e6db2ebdc24f95958faec2be5558d6)
-Failed to load shader (instanceID 456, GUID bc1ede39bf3643ee8e493720e4259791)
-Failed to load shader (instanceID 446, GUID fe393ace9b354375a9cb14cdbbc28be4)
-Failed to load shader (instanceID 448, GUID cf81c85f95fe47e1a27f6ae460cf182c)
-Failed to load shader (instanceID 458, GUID 48bb5f55d8670e349b6e614913f9d910)
-Failed to load shader (instanceID 460, GUID 85187c2149c549c5b33f0cdb02836b17)
-Failed to load shader (instanceID 462, GUID 128e987d567d4e2c824d754223b3f3b0)
-Failed to load shader (instanceID 470, GUID f7ada0af4f174f0694ca6a487b8f543d)
-Failed to load shader (instanceID 466, GUID a02a7d8c237544f1962732b55a9aebf1)
-Failed to load shader (instanceID 468, GUID c8d12adcee749c344b8117cf7c7eb912)
-Failed to load shader (instanceID 464, GUID 1e3b057af24249748ff873be7fafee47)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.72 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (3ms)
+Failed to load shader (instanceID 474, GUID 2f0aaacddead9f44fa76535dbd52811b)
+Failed to load shader (instanceID 472, GUID b90e352d9db3cd5489afb4a5254f731a)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (59.0 KB). Loaded Objects now: 4202.
-Memory consumption went from 151.3 MB to 151.3 MB.
-Total: 5.895700 ms (FindLiveObjects: 0.454400 ms CreateObjectMapping: 0.445000 ms MarkObjects: 4.765300 ms  DeleteObjects: 0.229200 ms)
+Unloading 3723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (59.8 KB). Loaded Objects now: 4217.
+Memory consumption went from 155.6 MB to 155.5 MB.
+Total: 2.912500 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.048900 ms MarkObjects: 2.583100 ms  DeleteObjects: 0.095700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Main_Menu.cs: f6348e4255d4512d0dcdb2fb49162e25 -> c07e093dccce13c197b810bf8802b5e4
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -189,6 +183,87 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Switch.cs: d1c138aee1c9c38a0e7fb9e51eeceb5e -> 71e9fa4e0d71fc9dc4af04dc3efafc1d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91507.450272 seconds.
+  path: Assets/Skeleton/textures/Sword.png
+  artifactKey: Guid(2fdfe64199ec98b47a2b9d48b23ae1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton/textures/Sword.png using Guid(2fdfe64199ec98b47a2b9d48b23ae1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd7f86eeb83509fcafa6ccba020e9ba') in 0.034951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.249 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 822ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (575ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Failed to load shader (instanceID 474, GUID 2f0aaacddead9f44fa76535dbd52811b)
+Failed to load shader (instanceID 472, GUID b90e352d9db3cd5489afb4a5254f731a)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.8 KB). Loaded Objects now: 4224.
+Memory consumption went from 152.5 MB to 152.4 MB.
+Total: 2.187700 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.070000 ms MarkObjects: 1.867400 ms  DeleteObjects: 0.041900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Main_Menu.cs: f6348e4255d4512d0dcdb2fb49162e25 -> c07e093dccce13c197b810bf8802b5e4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Switch.cs: d1c138aee1c9c38a0e7fb9e51eeceb5e -> 71e9fa4e0d71fc9dc4af04dc3efafc1d
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -196,70 +271,62 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  3.109 seconds
-Refreshing native plugins compatible for Editor in 5.04 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.246 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.552 seconds
-Domain Reload Profiling: 6656ms
-	BeginReloadAssembly (1327ms)
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 820ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (713ms)
-	RebuildCommonClasses (249ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (1391ms)
-		LoadAssemblies (1331ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (147ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (525ms)
-			TypeCache.Refresh (70ms)
-				TypeCache.ScanAssembly (5ms)
-			ScanForSourceGeneratedMonoScriptInfo (381ms)
-			ResolveRequiredComponents (73ms)
-	FinalizeReload (3552ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (576ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1839ms)
+		SetupLoadedEditorAssemblies (316ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (34ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (532ms)
-			ProcessInitializeOnLoadAttributes (1190ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Failed to load shader (instanceID 450, GUID dd89cf5b9246416f84610a006f916af7)
-Failed to load shader (instanceID 452, GUID 14eb328de4b8eb245bb7cea29e4ac00b)
-Failed to load shader (instanceID 454, GUID 68e6db2ebdc24f95958faec2be5558d6)
-Failed to load shader (instanceID 456, GUID bc1ede39bf3643ee8e493720e4259791)
-Failed to load shader (instanceID 446, GUID fe393ace9b354375a9cb14cdbbc28be4)
-Failed to load shader (instanceID 448, GUID cf81c85f95fe47e1a27f6ae460cf182c)
-Failed to load shader (instanceID 458, GUID 48bb5f55d8670e349b6e614913f9d910)
-Failed to load shader (instanceID 460, GUID 85187c2149c549c5b33f0cdb02836b17)
-Failed to load shader (instanceID 462, GUID 128e987d567d4e2c824d754223b3f3b0)
-Failed to load shader (instanceID 470, GUID f7ada0af4f174f0694ca6a487b8f543d)
-Failed to load shader (instanceID 466, GUID a02a7d8c237544f1962732b55a9aebf1)
-Failed to load shader (instanceID 468, GUID c8d12adcee749c344b8117cf7c7eb912)
-Failed to load shader (instanceID 464, GUID 1e3b057af24249748ff873be7fafee47)
-Refreshing native plugins compatible for Editor in 5.53 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Failed to load shader (instanceID 474, GUID 2f0aaacddead9f44fa76535dbd52811b)
+Failed to load shader (instanceID 472, GUID b90e352d9db3cd5489afb4a5254f731a)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (155.3 KB). Loaded Objects now: 4292.
-Memory consumption went from 154.0 MB to 153.8 MB.
-Total: 8.179600 ms (FindLiveObjects: 1.356600 ms CreateObjectMapping: 1.636600 ms MarkObjects: 4.957200 ms  DeleteObjects: 0.227000 ms)
+Unloading 3703 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.6 KB). Loaded Objects now: 4228.
+Memory consumption went from 154.7 MB to 154.6 MB.
+Total: 2.422700 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.059100 ms  DeleteObjects: 0.036400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Main_Menu.cs: f6348e4255d4512d0dcdb2fb49162e25 -> c07e093dccce13c197b810bf8802b5e4
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -268,124 +335,388 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Switch.cs: d1c138aee1c9c38a0e7fb9e51eeceb5e -> 71e9fa4e0d71fc9dc4af04dc3efafc1d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.245 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 877ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (633ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Failed to load shader (instanceID 474, GUID 2f0aaacddead9f44fa76535dbd52811b)
+Failed to load shader (instanceID 472, GUID b90e352d9db3cd5489afb4a5254f731a)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3703 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.6 KB). Loaded Objects now: 4231.
+Memory consumption went from 156.6 MB to 156.6 MB.
+Total: 2.969100 ms (FindLiveObjects: 0.210000 ms CreateObjectMapping: 0.086100 ms MarkObjects: 2.630900 ms  DeleteObjects: 0.041500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Main_Menu.cs: f6348e4255d4512d0dcdb2fb49162e25 -> c07e093dccce13c197b810bf8802b5e4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Switch.cs: d1c138aee1c9c38a0e7fb9e51eeceb5e -> 71e9fa4e0d71fc9dc4af04dc3efafc1d
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 244211.081073 seconds.
-  path: Assets/TexturesPart01/textures/asphalt_01_NRM.png
-  artifactKey: Guid(c4df4a02e32f30043b6fcdc7bdd777af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/asphalt_01_NRM.png using Guid(c4df4a02e32f30043b6fcdc7bdd777af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ea8d286efb6d85eacc1118609ce519') in 2.244188 seconds
+  Time since last request: 415.322681 seconds.
+  path: Assets/Map_assets/Concrete Mixer/Materials/low_M_engine_Normal.mat
+  artifactKey: Guid(623dbd37c95e29744b775062910f4029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/Concrete Mixer/Materials/low_M_engine_Normal.mat using Guid(623dbd37c95e29744b775062910f4029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e74a29f85ec8b43322099c2b0e7f056') in 0.065729 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/TexturesPart01/textures/ground_03_NRM.png
-  artifactKey: Guid(d79b45fcc7856dd498bf97eb29c3b765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/ground_03_NRM.png using Guid(d79b45fcc7856dd498bf97eb29c3b765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e23ae0ec55bc16787adf57ce0b984f') in 0.097397 seconds
+  Time since last request: 17.660086 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_attaches-haut_MetallicSmoot.png
+  artifactKey: Guid(517aa7882b5bc53458b526f84a08b356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_attaches-haut_MetallicSmoot.png using Guid(517aa7882b5bc53458b526f84a08b356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9735a4ad286a8b01639946330d83148b') in 0.010611 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TexturesPart01/textures/brick_02.png
-  artifactKey: Guid(9b61fc3343ec8284788b892d495dd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/brick_02.png using Guid(9b61fc3343ec8284788b892d495dd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc849e514211888b703a7c3a0603a6b') in 0.059222 seconds
+  Time since last request: 0.000010 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_attaches-haut_Normal.png
+  artifactKey: Guid(9d870be570a35bc4abf7b001df2acc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_attaches-haut_Normal.png using Guid(9d870be570a35bc4abf7b001df2acc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ca593a15a6d8815fb1470d95438e70') in 0.008653 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TexturesPart01/textures/asphalt_01.png
-  artifactKey: Guid(7b64cbe21e6ab8647b39bc64515b5c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/asphalt_01.png using Guid(7b64cbe21e6ab8647b39bc64515b5c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a215a8cab7fd66cf805193027f70be1') in 0.042337 seconds
+  Time since last request: 0.000257 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_beton-haut_Normal.png
+  artifactKey: Guid(7f7d197844402d145abc7986b7d055af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_beton-haut_Normal.png using Guid(7f7d197844402d145abc7986b7d055af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4068274727bc2e1dd75cd5d89ab309') in 0.007291 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.030956 seconds.
-  path: Assets/TexturesPart01/textures/ground_01.png
-  artifactKey: Guid(bc74cafddbc6edb4abe20ee0d553f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/ground_01.png using Guid(bc74cafddbc6edb4abe20ee0d553f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae69180efe3f2210a7619b44a946121e') in 0.033761 seconds
+  Time since last request: 0.000009 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_beton_MetallicSmoothness.png
+  artifactKey: Guid(6de5589d9e3ce3e44baffe7a8e2663d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_beton_MetallicSmoothness.png using Guid(6de5589d9e3ce3e44baffe7a8e2663d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d25bebb8b7eb1ca46d438b59f992f1') in 0.005099 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TexturesPart01/textures/ground_02.png
-  artifactKey: Guid(1840132d04fc78649920201bfefa0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/ground_02.png using Guid(1840132d04fc78649920201bfefa0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a4f71fc675b4040b10a0a16cf2e4f4') in 0.049452 seconds
+  Time since last request: 0.000010 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_beton_Normal.png
+  artifactKey: Guid(b9e70566adf348640aeb3f5bac6855ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_beton_Normal.png using Guid(b9e70566adf348640aeb3f5bac6855ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8ba0c1f2aa542fc290375dab6bf308') in 0.008483 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/TexturesPart01/textures/brick_03.png
-  artifactKey: Guid(baf25f9d275b11941ba493d1bf57a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/brick_03.png using Guid(baf25f9d275b11941ba493d1bf57a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c987c6115c173e59d82f48d7c97d64ed') in 0.017766 seconds
+  Time since last request: 0.000009 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_cabine_MetallicSmoothness.png
+  artifactKey: Guid(eb8b5cd140127614f93837ff5f9f7eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_cabine_MetallicSmoothness.png using Guid(eb8b5cd140127614f93837ff5f9f7eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b06a18e5af382ab1fcda2b0a839b06') in 0.007846 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TexturesPart01/textures/ground_02_NRM.png
-  artifactKey: Guid(a5787585950233246ae16b059c824d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/ground_02_NRM.png using Guid(a5787585950233246ae16b059c824d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0eb7cfb8ae9d2d527caec3de0764f7') in 0.023459 seconds
+  Time since last request: 0.000008 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_cabine_Normal.png
+  artifactKey: Guid(8d94a32de942fa046b03b8be63541a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_cabine_Normal.png using Guid(8d94a32de942fa046b03b8be63541a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba235d0e3919b809b5aec657b29971c') in 0.007215 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TexturesPart01/textures/ground_04_NRM.png
-  artifactKey: Guid(bd23db545ee163a4082eab357c4037f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/ground_04_NRM.png using Guid(bd23db545ee163a4082eab357c4037f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7d1db7e02fa2cfd43b123c8ae40fff') in 0.025586 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-bord-metal_AlbedoTran.png
+  artifactKey: Guid(614165d78e8f1854da8544d059e89b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-bord-metal_AlbedoTran.png using Guid(614165d78e8f1854da8544d059e89b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fd7a131bd778e581340ff5ce66bb34') in 0.007868 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/TexturesPart01/textures/asphalt_03.png
-  artifactKey: Guid(e37ca78d251f32e4d93b913ad180bd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/asphalt_03.png using Guid(e37ca78d251f32e4d93b913ad180bd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3709c897d28b2a262e41e4e8233cf7fb') in 0.031697 seconds
+  Time since last request: 0.004599 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-haut-1_AlbedoTranspar.png
+  artifactKey: Guid(a4581af6593e92b44b373d62997d94d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-haut-1_AlbedoTranspar.png using Guid(a4581af6593e92b44b373d62997d94d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78a0503475574e793cef263076eb648') in 0.011365 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TexturesPart01/textures/brick_02_NRM.png
-  artifactKey: Guid(a84959d43e1cf8f4694a47cd7de585de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/brick_02_NRM.png using Guid(a84959d43e1cf8f4694a47cd7de585de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9079b6c5d2e2529189e89d20b5e3ca0e') in 2.564532 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-haut-1_Normal.png
+  artifactKey: Guid(4270b905bc4bd594c874a7317e5dfed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-haut-1_Normal.png using Guid(4270b905bc4bd594c874a7317e5dfed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c319e1da92bbc52536802835cae987') in 0.010002 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013683 seconds.
-  path: Assets/TexturesPart01/textures/brick_02_NRM.png
-  artifactKey: Guid(a84959d43e1cf8f4694a47cd7de585de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/brick_02_NRM.png using Guid(a84959d43e1cf8f4694a47cd7de585de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9079b6c5d2e2529189e89d20b5e3ca0e') in 0.109289 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-haut-3_MetallicSmooth.png
+  artifactKey: Guid(08b96f66f6150d94787a6cf311b3997c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-haut-3_MetallicSmooth.png using Guid(08b96f66f6150d94787a6cf311b3997c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc9b49a718a3373b1c6a2dabe11efab') in 0.008108 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007066 seconds.
-  path: Assets/TexturesPart01/textures/brick_broken_01_NRM.png
-  artifactKey: Guid(82e1caf18ed722c408499cb0aeb2d248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/brick_broken_01_NRM.png using Guid(82e1caf18ed722c408499cb0aeb2d248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d361bece4d19e272f3ae8db7225aaff') in 0.076196 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-haut-3_Normal.png
+  artifactKey: Guid(747f2fe9951f86c4c9796cefef452b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-haut-3_Normal.png using Guid(747f2fe9951f86c4c9796cefef452b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b305bcb978f550f464ac6dc98bf0505a') in 0.008985 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TexturesPart01/textures/asphalt_03_NRM.png
-  artifactKey: Guid(4d97a3cc8e5cc544b95fededcc834b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesPart01/textures/asphalt_03_NRM.png using Guid(4d97a3cc8e5cc544b95fededcc834b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0ea4ef4da6399ecc15693dc16fb0fd') in 0.072160 seconds
+  Time since last request: 0.000009 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-metal_Normal.png
+  artifactKey: Guid(ba9c895c900068141990c62fa456bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-metal_Normal.png using Guid(ba9c895c900068141990c62fa456bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29df5d5aad27c9a0b68adffc2c800420') in 0.008705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-top_MetallicSmoothnes.png
+  artifactKey: Guid(3f196e6e540b7754e9bc05d6440215e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_corps-top_MetallicSmoothnes.png using Guid(3f196e6e540b7754e9bc05d6440215e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2878a83aa21542c234a83371190a43f4') in 0.009452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_echelle_AlbedoTransparency.png
+  artifactKey: Guid(86e65a1a1478cef498517f341590a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_echelle_AlbedoTransparency.png using Guid(86e65a1a1478cef498517f341590a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac7a94ebdb22a24b9711ed45e578185') in 0.007433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-accroche_AlbedoTranspa.png
+  artifactKey: Guid(126cf377388c2804f92267d1fd7a6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-accroche_AlbedoTranspa.png using Guid(126cf377388c2804f92267d1fd7a6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5a257dc133e90d944ec0a65f59cba1') in 0.008066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-accroche_MetallicSmoot.png
+  artifactKey: Guid(ffd4864e9eed0c74f8a70cfc41fcdf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-accroche_MetallicSmoot.png using Guid(ffd4864e9eed0c74f8a70cfc41fcdf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd73bef5907fac8cbc533ce81aefd983') in 0.008089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-barrieres-support_Meta.png
+  artifactKey: Guid(d3b1834349c72544d8d165b5933d5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-barrieres-support_Meta.png using Guid(d3b1834349c72544d8d165b5933d5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6b2d7f8618d197e017276429e16b32') in 0.007863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-barrieres_AlbedoTransp.png
+  artifactKey: Guid(2debc7e5583f48f46af1036926f9924d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-barrieres_AlbedoTransp.png using Guid(2debc7e5583f48f46af1036926f9924d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84c67bae397a77ae636d0461c1e959a') in 0.007476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-barrieres_MetallicSmoo.png
+  artifactKey: Guid(1b22aea2c54c10c4782eb7c609eaa4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_grue-barrieres_MetallicSmoo.png using Guid(1b22aea2c54c10c4782eb7c609eaa4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb1ca3417cc50a10158d616fac0d3f1') in 0.005044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_haut-gris_AlbedoTransparenc.png
+  artifactKey: Guid(f7ac09c845cb0944e9e20edc5b63fed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_haut-gris_AlbedoTransparenc.png using Guid(f7ac09c845cb0944e9e20edc5b63fed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed19fce3111acd03e9c22665b8b53f4a') in 0.008096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_haut-gris_Normal.png
+  artifactKey: Guid(5758db65a76e63f418e488791589896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_haut-gris_Normal.png using Guid(5758db65a76e63f418e488791589896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06733076da7c28d913a54586c1a7d10') in 0.007128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_haut-jaune_AlbedoTransparen.png
+  artifactKey: Guid(d371fd486888f9b4e8812c5be40ab445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_haut-jaune_AlbedoTransparen.png using Guid(d371fd486888f9b4e8812c5be40ab445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c66bec72ca639f64d269e6613d2c44f') in 0.007515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_haut-jaune_Normal.png
+  artifactKey: Guid(4bf3906c56907284fafc55c3e5438e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_haut-jaune_Normal.png using Guid(4bf3906c56907284fafc55c3e5438e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc5aa7b8f4ffee9c3a62412db8a20e9') in 0.007533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003420 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_pied-attache_Normal.png
+  artifactKey: Guid(458fe6e7dea36dd428e0c822fd26110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_pied-attache_Normal.png using Guid(458fe6e7dea36dd428e0c822fd26110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9199361ffd3cf77b423260dd4b5afc') in 0.007878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001003 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_pied-barre_MetallicSmoothne.png
+  artifactKey: Guid(3361663bc1bda5046add03edf514048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_pied-barre_MetallicSmoothne.png using Guid(3361663bc1bda5046add03edf514048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d62d3843b23835947189f16f2921f') in 0.008014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008579 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_pied-support_MetallicSmooth.png
+  artifactKey: Guid(6c2c30bc7b5176e41bca456b14266db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_pied-support_MetallicSmooth.png using Guid(6c2c30bc7b5176e41bca456b14266db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2a93fdb498917b3c322eb4aa23d48a') in 0.005094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003973 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_plateforme-haut_AlbedoTrans.png
+  artifactKey: Guid(ea3f7e5d19d9b52408f072f89e740f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_plateforme-haut_AlbedoTrans.png using Guid(ea3f7e5d19d9b52408f072f89e740f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65284a429c284987c4a061317f20d22f') in 0.004615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007235 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_plateforme-haut_Normal.png
+  artifactKey: Guid(5006238c068092146b0e73a07e4cf38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_plateforme-haut_Normal.png using Guid(5006238c068092146b0e73a07e4cf38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115051075fcfa8c21206c0a62d219cb4') in 0.007514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_plateforme_MetallicSmoothne.png
+  artifactKey: Guid(3d95e088220ac794c9371c33311ee61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_plateforme_MetallicSmoothne.png using Guid(3d95e088220ac794c9371c33311ee61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a318c12ac0b5c0b283d31ae79b2000a') in 0.007701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001813 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_poulie_AlbedoTransparency.png
+  artifactKey: Guid(3b432dbd3f78e1a4ba72fdef1e323690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_poulie_AlbedoTransparency.png using Guid(3b432dbd3f78e1a4ba72fdef1e323690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976a76f7af2b7a699ecdab799621f19d') in 0.007513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001613 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_poulie_Normal.png
+  artifactKey: Guid(7a6fca15917c6bc4bb0ec55887ae2a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_poulie_Normal.png using Guid(7a6fca15917c6bc4bb0ec55887ae2a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd790fa0927bfa4ca90abd8a27e88003a') in 0.007029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002392 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_poulis-support_MetallicSmoo.png
+  artifactKey: Guid(393f4ae4960bf86468faca6826a954f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_poulis-support_MetallicSmoo.png using Guid(393f4ae4960bf86468faca6826a954f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4989fba4dda6a84b08db043ec6dcd2') in 0.007862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001360 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_support_AlbedoTransparency.png
+  artifactKey: Guid(1d5c5d4cecee33e4da2185c684575d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_support_AlbedoTransparency.png using Guid(1d5c5d4cecee33e4da2185c684575d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88990aa868db5f154988f32c37efd48') in 0.006976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001722 seconds.
+  path: Assets/Map_assets/crane/textures/grue-unwrap-v2_support_Normal.png
+  artifactKey: Guid(a2319cc47a7409b41a67ddd90b7680df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/textures/grue-unwrap-v2_support_Normal.png using Guid(a2319cc47a7409b41a67ddd90b7680df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5245dd432a4762f8692193da6d89a9a6') in 0.008667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.387029 seconds.
+  path: Assets/Map_assets/crane/Materials/grue-unwrap-v2_grue-accroche_MetallicSmoot.mat
+  artifactKey: Guid(5588b7a0b9662964b869caa9da969603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/Materials/grue-unwrap-v2_grue-accroche_MetallicSmoot.mat using Guid(5588b7a0b9662964b869caa9da969603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3e4a4a2d9f9cd2b278dd7d088c14e1') in 0.007823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Map_assets/crane/Materials/grue-unwrap-v2_poulis-support_MetallicSmoo.mat
+  artifactKey: Guid(c773188ff192b464ab3bfff9d58d16f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/crane/Materials/grue-unwrap-v2_poulis-support_MetallicSmoo.mat using Guid(c773188ff192b464ab3bfff9d58d16f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b294c6006f4aa0f33df60ba3013c5fe') in 0.007296 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
