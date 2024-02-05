@@ -17,7 +17,7 @@ public class SpawnerScript : MonoBehaviour
     {
         if(time >= Seconds)
         {
-            Vector3 spawnVector = new Vector3(Random.Range(31, 39), 0.0005f, -56);
+            Vector3 spawnVector = new Vector3(Random.Range(31, 39), -0.9f, -56);
             Instantiate(Zombie, spawnVector, Quaternion.identity);
             time = 0;
         }
