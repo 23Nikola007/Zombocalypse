@@ -6,6 +6,15 @@ public class Main_Menu : MonoBehaviour
 {
     public void PlayGame()
     {
+        SceneManager.LoadSceneAsync(2);
+    }
+    public void Settings()
+    {
         SceneManager.LoadSceneAsync(1);
+    }
+
+    public void Back()
+    {
+        SceneManager.LoadSceneAsync(0);
     }
 }

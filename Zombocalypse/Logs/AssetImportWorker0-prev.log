@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 31968 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16016 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
+C:/Users/bekic/OneDrive/Documents/GitHub/Zombocalypse/Zombocalypse
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54640
-Successfully changed project path to: C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
-C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
+57067
+Successfully changed project path to: C:/Users/bekic/OneDrive/Documents/GitHub/Zombocalypse/Zombocalypse
+C:/Users/bekic/OneDrive/Documents/GitHub/Zombocalypse/Zombocalypse
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,67 @@ C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35440] Host "[IP] 192.168.1.99 [Port] 0 [Flags] 2 [Guid] 3255002723 [EditorId] 3255002723 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27324] Host "[IP] 172.20.208.1 [Port] 0 [Flags] 2 [Guid] 1781739027 [EditorId] 1781739027 [Version] 1048832 [Id] WindowsEditor(7,Veljko) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [35440] Host "[IP] 192.168.1.99 [Port] 0 [Flags] 2 [Guid] 3255002723 [EditorId] 3255002723 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27324] Host "[IP] 172.20.208.1 [Port] 0 [Flags] 2 [Guid] 1781739027 [EditorId] 1781739027 [Version] 1048832 [Id] WindowsEditor(7,Veljko) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 6.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 21.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Nikola/Documents/GitHub/Zombocalypse/Zombocalypse/Assets
+[Subsystems] Discovering subsystems at path C:/Users/bekic/OneDrive/Documents/GitHub/Zombocalypse/Zombocalypse/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 7800 XT (ID=0x747e)
-    Vendor:   ATI
-    VRAM:     16172 MB
-    Driver:   31.0.24002.92
+    Renderer: Intel(R) UHD Graphics (ID=0x4628)
+    Vendor:   Intel
+    VRAM:     8008 MB
+    Driver:   31.0.101.4887
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004533 seconds.
-- Loaded All Assemblies, in  0.224 seconds
+Registered in 0.004980 seconds.
+- Loaded All Assemblies, in  0.326 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.173 seconds
-Domain Reload Profiling: 397ms
-	BeginReloadAssembly (69ms)
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 616ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (87ms)
-		LoadAssemblies (68ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (86ms)
-			TypeCache.Refresh (85ms)
-				TypeCache.ScanAssembly (77ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (107ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (174ms)
+	FinalizeReload (291ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (134ms)
+		SetupLoadedEditorAssemblies (225ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (94ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,9 +117,97 @@ Domain Reload Profiling: 397ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+Symbol file data-000001AFDF2375C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.357 seconds
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Symbol file data-000001AFDF2375C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF2375C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF4BB4F0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE21273010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE2129B420 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF2375C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE212B5310 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE943750 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE943750 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF2375C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE213049A0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE2131D190 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF565670 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF5DA6F0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE213328E0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF63FAE0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEAA9990 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEACA9A0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE214E4620 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE9A8B30 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE9C38C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE9A8B30 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE9A8B30 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE9A8B30 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEA4A970 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE9A8B30 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEA4A970 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF3411D0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF3411D0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE9ADE30 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEC18A50 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF3829E0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEC18A50 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF3F9600 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEC2E3C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF413A20 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEC9A990 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDECB6BA0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEDCD350 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEDE4190 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE22D98AF0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEDE4190 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE22D98AF0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.971 seconds
+Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -127,270 +215,1552 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.425 seconds
-Domain Reload Profiling: 781ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.814 seconds
+Domain Reload Profiling: 1782ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (221ms)
-		LoadAssemblies (158ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (737ms)
+		LoadAssemblies (483ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (98ms)
-				TypeCache.ScanAssembly (87ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (426ms)
+		AnalyzeDomain (346ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (238ms)
+			ScanForSourceGeneratedMonoScriptInfo (71ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (814ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (342ms)
+		SetupLoadedEditorAssemblies (662ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (281ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Failed to load shader (instanceID 484, GUID c4edd00ff2db5b24391a4fcb1762e459)
+Failed to load shader (instanceID 676, GUID c8b6a681c7b4e2e4785ffab093907f9e)
+Failed to load shader (instanceID 626, GUID 3dd9fd928fdb83743b1f27d15df22179)
+Failed to load shader (instanceID 562, GUID 123ed592ad5c2494b8aed301fd609e7b)
+Failed to load shader (instanceID 540, GUID 2e37131331fbdca449b1a2bc47a639ca)
+Failed to load shader (instanceID 568, GUID 9bd32a6ece529fd4f9408b8d7e00c10d)
+Failed to load shader (instanceID 508, GUID 0ef322534f047a34c96d29419d56d17a)
+Failed to load shader (instanceID 644, GUID 0b3b82b438158984dbccd69f0afe6ae6)
+Failed to load shader (instanceID 678, GUID 33a2079f6a2db4c4eb2e44b33f4ddf6b)
+Failed to load shader (instanceID 550, GUID 42dfcc8fe803ece4096c58630689982f)
+Failed to load shader (instanceID 600, GUID cef5ba33ee5063d4c8b495d2292e394d)
+Failed to load shader (instanceID 658, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 722, GUID 756bac9090102564582875f4c7e30202)
+Failed to load shader (instanceID 536, GUID dedaf4ea0d134ca4aad1d95a558c46e5)
+Failed to load shader (instanceID 552, GUID e22fc1942c664490980b8793dd4a163d)
+Failed to load shader (instanceID 690, GUID 81d02e8644315b742b154842a3a2f98c)
+Failed to load shader (instanceID 582, GUID 123f13d52852ef547b2962de4bd9eaad)
 Failed to load shader (instanceID 474, GUID 2f0aaacddead9f44fa76535dbd52811b)
+Failed to load shader (instanceID 632, GUID 08b7ad21d2b8e9142b730b22d7355821)
+Failed to load shader (instanceID 724, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 698, GUID 6510c57cccce5674092bdc0dd1ae98c1)
+Failed to load shader (instanceID 610, GUID ca059f1af4587a24b9a9eed3b66cff0f)
+Failed to load shader (instanceID 500, GUID 439949ea1bfa91b4ba0d04269fcde33d)
+Failed to load shader (instanceID 692, GUID 3ef2b84260e542d4e8640a7e20bb5203)
+Failed to load shader (instanceID 556, GUID 67d6171b0acc6554aad48c845ec7e67f)
+Failed to load shader (instanceID 706, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 512, GUID 8e706c0e71fcec34a8f5c9713e5e2943)
+Failed to load shader (instanceID 574, GUID a06934a4863e778498be65d8f865b7a4)
+Failed to load shader (instanceID 680, GUID 91d9e1751d0a17749819762ebf2b6846)
+Failed to load shader (instanceID 490, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 618, GUID ea18ca9826385e943979c46cf98968cc)
+Failed to load shader (instanceID 584, GUID 3b3bf235775cf8b4baae7f3306787ab0)
+Failed to load shader (instanceID 700, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 526, GUID 0024f9d09a828734192f3e1cd5931745)
+Failed to load shader (instanceID 498, GUID c1d1d149a043a5349ba367da6c2051ba)
+Failed to load shader (instanceID 710, GUID e96e3b8a4797c8f47b7ae6759a3e66af)
+Failed to load shader (instanceID 608, GUID 93d40cc9a6e13994f86f576a624efa18)
+Failed to load shader (instanceID 654, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 496, GUID c4d81c6e573560444bb1ea11ae4acfcb)
+Failed to load shader (instanceID 684, GUID 4517edda0467bb14489d5eccc9973ba2)
+Failed to load shader (instanceID 592, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 716, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 666, GUID 73be0053604e1d54388db4f32739a92f)
+Failed to load shader (instanceID 532, GUID 2fcfb8d92f45e4549b3f0bad5d0654bf)
+Failed to load shader (instanceID 714, GUID 8ced2ee46972912409c8ffd9ea2276a4)
+Failed to load shader (instanceID 576, GUID 001a47fa123e95a4bba13ecb0442d944)
+Failed to load shader (instanceID 594, GUID d850d0a2481878d4bbf17e5126b04163)
+Failed to load shader (instanceID 530, GUID 00dd221e34a6ab349a1196b0f2fab693)
+Failed to load shader (instanceID 506, GUID 8137b807709e178498f22ed710864bb0)
+Failed to load shader (instanceID 580, GUID 286ed840dd86d4d4988916f3df5a1429)
+Failed to load shader (instanceID 514, GUID cf5ca5b6ef18b3f429ed707ee9ceac9f)
+Failed to load shader (instanceID 480, GUID eb607f5e8fc16e140b732f33d26c8c31)
 Failed to load shader (instanceID 472, GUID b90e352d9db3cd5489afb4a5254f731a)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Failed to load shader (instanceID 528, GUID 7a09af24008164d40ae85ccd6bf87e17)
+Failed to load shader (instanceID 620, GUID 5ac9ef0c50282754b93c7692488e7ee7)
+Failed to load shader (instanceID 578, GUID 12f1a69ddf916f042ae6ce8a994506f3)
+Failed to load shader (instanceID 588, GUID a6402c19b020b4a4fb7073aaa2e26aba)
+Failed to load shader (instanceID 630, GUID 017a05924c0b0484ca29717ed0c60343)
+Failed to load shader (instanceID 548, GUID 3d1574f1cdfa0ce4995f9bc79ed7f8ec)
+Failed to load shader (instanceID 502, GUID c7c2bd17b06ceb4468e14081aaf1b96f)
+Failed to load shader (instanceID 488, GUID 794f260d88f9fe74fa681fe5ab74a107)
+Failed to load shader (instanceID 712, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 524, GUID db8bd7436dc2c5f4c92655307d198381)
+Failed to load shader (instanceID 534, GUID 02ae56f4306413c4a96dcf005cde1971)
+Failed to load shader (instanceID 636, GUID 49feb6b111e82ec4eb6d3d08e4b6903e)
+Failed to load shader (instanceID 554, GUID b22ad378c678348729d3a3f981b9f270)
+Failed to load shader (instanceID 602, GUID e6255f98cf405eb45ab6f9006cf11e1f)
+Failed to load shader (instanceID 510, GUID 9bc5229549892084da43ad706d84f1bc)
+Failed to load shader (instanceID 538, GUID bfa43a48695613b4ea19c58858ae1a61)
+Failed to load shader (instanceID 616, GUID dd7047092f3c82b40b3a07868f9c4de2)
+Failed to load shader (instanceID 596, GUID c243aac96dda5fa40bed693ed5ba02c4)
+Failed to load shader (instanceID 542, GUID 8371b763f09c7304889c22aa97ebdfd2)
+Failed to load shader (instanceID 718, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 492, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 564, GUID 5685fd17e71045e4ca9fefca38a7c177)
+Failed to load shader (instanceID 624, GUID 9655f4aa89a469c49aceaceabf9bc77b)
+Failed to load shader (instanceID 726, GUID 19dfbb09098c9584a83c956fbd6c5d79)
+Failed to load shader (instanceID 694, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 670, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 598, GUID 7e3722d0388000848acb25fd3cc8c088)
+Failed to load shader (instanceID 606, GUID e3cab24f27741f44d8af1e94d006267c)
+Failed to load shader (instanceID 660, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 520, GUID 392325671f122f540be9033ca5ae7a56)
+Failed to load shader (instanceID 558, GUID 2ad7ce40f0dbaf64dadef1f58d8524d3)
+Failed to load shader (instanceID 628, GUID 85330b3de0cfebc4ba78b2d61b1a2899)
+Failed to load shader (instanceID 668, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 566, GUID 32f724728cf19904291226f239ec16f0)
+Failed to load shader (instanceID 516, GUID 55d195396b03b804eb78c92d468e3c8e)
+Failed to load shader (instanceID 570, GUID 48db2705cf2856d4e893eb30a6892d1b)
+Failed to load shader (instanceID 662, GUID 08967e1a353252242a0c4cfc66ced645)
+Failed to load shader (instanceID 612, GUID fd532bf1795188c4daaa66ea798b8b0a)
+Failed to load shader (instanceID 494, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 682, GUID 0fcef9ef067b4cd44a62bd6ac0166384)
+Failed to load shader (instanceID 708, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 614, GUID 6e6a4a3dbb788234594aa74f2d6aeb6f)
+Failed to load shader (instanceID 728, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 482, GUID 6e4ae4064600d784cac1e41a9e6f2e59)
+Failed to load shader (instanceID 634, GUID 4edd96259a5e8b44c90479928f0cd11e)
+Failed to load shader (instanceID 656, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 560, GUID d05913e251bed7a4992c921c62e1b647)
+Failed to load shader (instanceID 522, GUID 3b21275fd12d65f49babb5286f040f2d)
+Failed to load shader (instanceID 586, GUID d279c46a545b0af4f9f0c4fa82cd489e)
+Failed to load shader (instanceID 638, GUID 9cef3686fa32c8840947ed99b561195c)
+Failed to load shader (instanceID 544, GUID 035941b63024d1943af48811c1db20d9)
+Failed to load shader (instanceID 604, GUID 46a45b32bb110604fb36216b63bcdb81)
+Failed to load shader (instanceID 504, GUID e874aca2df8300a488258738c31f85cf)
+Failed to load shader (instanceID 546, GUID 8ea49ef16606acd489439e676ab84040)
+Failed to load shader (instanceID 518, GUID 79a966a5200a456188dec0d48d805614)
+Failed to load shader (instanceID 478, GUID 1d64af84bdc970c4fae0c1e06dd95b73)
+Failed to load shader (instanceID 590, GUID 31f36caf0a5e7f848a1b5328b6ad3eb8)
+Failed to load shader (instanceID 622, GUID 3330c1503ea8c6d4d9408df3f64227eb)
+Failed to load shader (instanceID 686, GUID 263f12c7593cf8841b5ccdbb717e3389)
+Failed to load shader (instanceID 572, GUID 2b5d4f1b26f03dc4a873b093e0c4adb1)
+Failed to load shader (instanceID 672, GUID eab0538d9d5746246806a9611c04ac4d)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3723 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (59.1 KB). Loaded Objects now: 4217.
-Memory consumption went from 155.5 MB to 155.4 MB.
-Total: 2.475800 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.067000 ms MarkObjects: 2.117300 ms  DeleteObjects: 0.083100 ms)
+Unloading 3753 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (59.0 KB). Loaded Objects now: 4248.
+Memory consumption went from 173.6 MB to 173.5 MB.
+Total: 7.087000 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.114300 ms MarkObjects: 6.475000 ms  DeleteObjects: 0.150700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 89945.446815 seconds.
-  path: Assets/off.png
-  artifactKey: Guid(141c562fca9293148990fcdce5a63ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/off.png using Guid(141c562fca9293148990fcdce5a63ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b1ab26e3871c20a15975265b02dfc1') in 0.062462 seconds
+  Time since last request: 690437.396761 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie1.prefab
+  artifactKey: Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie1.prefab using Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c317d960f7507be771da4def20e2a874') in 0.172621 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 201
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/on.png
-  artifactKey: Guid(8ec75bda01950f5408239164c0bb501f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/on.png using Guid(8ec75bda01950f5408239164c0bb501f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e126976097686c2934ed5404af0d223d') in 0.011327 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie2.prefab
+  artifactKey: Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie2.prefab using Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2aa9b4dbf3f0df00866c70e33ca5ad6') in 0.056765 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 153
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/background.png
-  artifactKey: Guid(7d710fd91eb592c45a5b46b1db750ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/background.png using Guid(7d710fd91eb592c45a5b46b1db750ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242a64523db89daf8beaee2c58f2b9ed') in 0.017492 seconds
+  Time since last request: 13.879779 seconds.
+  path: Assets/Enemies/Enemies/Zombie/FBXs/Zombie1.FBX
+  artifactKey: Guid(8f7380da49034cd488ddff94b1ac35d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/FBXs/Zombie1.FBX using Guid(8f7380da49034cd488ddff94b1ac35d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a262a58807ca88f1bf42c8bea1bc47bf') in 0.296297 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 179
 ========================================================================
 Received Import Request.
-  Time since last request: 402.340662 seconds.
-  path: Assets/1Map_assets
-  artifactKey: Guid(0aa8c4a9156bfc64aab2dbecd0b03073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1Map_assets using Guid(0aa8c4a9156bfc64aab2dbecd0b03073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3138bd879b7743b9f451e1309a73019') in 0.000389 seconds
+  Time since last request: 110.582516 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256cd4a8a1f74b5a74f13d741da6d815') in 0.061824 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 150
 ========================================================================
 Received Import Request.
-  Time since last request: 4.689086 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_SandAlbedo3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(78c7479864d546b408ed0be44bf7eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_SandAlbedo3d3aba195e4d26ee.terrainlayer using Guid(78c7479864d546b408ed0be44bf7eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e8b1ded3af5e55aa2aab1fc8f1a6da') in 0.006039 seconds
+  Time since last request: 11.772695 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbd843b89f1fcf134912c3a5756a8d9') in 0.078950 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 150
 ========================================================================
 Received Import Request.
-  Time since last request: 9.002889 seconds.
-  path: Assets/Asphalt_materials/Materials/Asphalt_material_1.mat
-  artifactKey: Guid(e2cf99945ce4148a6a6c50e4ce7b992c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asphalt_materials/Materials/Asphalt_material_1.mat using Guid(e2cf99945ce4148a6a6c50e4ce7b992c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986f6bcb9025529086c63628e1e0a904') in 0.107430 seconds
+  Time since last request: 3.283452 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a081691aff74963d4af6169e3096dfdb') in 0.063213 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 151
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Asphalt_materials/Materials/Asphalt_material_13.mat
-  artifactKey: Guid(dae0f2d37123c45bbb1c77c4971e8ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asphalt_materials/Materials/Asphalt_material_13.mat using Guid(dae0f2d37123c45bbb1c77c4971e8ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c3a74f9bdd3752ce82e1bb64c6ca15') in 0.009702 seconds
+  Time since last request: 13.578591 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58884625fdfbe89d89860bbcafab288d') in 0.055186 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 152
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Asphalt_materials/Materials/Asphalt_material_11.mat
-  artifactKey: Guid(2ef31fa7f9e174874a08c3efbc900a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asphalt_materials/Materials/Asphalt_material_11.mat using Guid(2ef31fa7f9e174874a08c3efbc900a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2dc8e48c12dead311ab952bbba4959') in 0.008662 seconds
+  Time since last request: 9.015358 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e15aa9783bcbdb82845db1ca431f3b') in 0.104285 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 153
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Asphalt_materials/Materials/Asphalt_material_7.mat
-  artifactKey: Guid(4b355fb689fe447d1ae10172c428b05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asphalt_materials/Materials/Asphalt_material_7.mat using Guid(4b355fb689fe447d1ae10172c428b05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa03ab134d08947cf314d62348a2e48') in 0.007110 seconds
+  Time since last request: 6.037357 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611c2147411886cf55bc3587cc0b9565') in 0.115293 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 153
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Asphalt_materials/Materials/Asphalt_material_14.mat
-  artifactKey: Guid(2e6c93c3456a248c391f70016879337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asphalt_materials/Materials/Asphalt_material_14.mat using Guid(2e6c93c3456a248c391f70016879337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c3e24463b940999038744855a0c6ec') in 0.008232 seconds
+  Time since last request: 6.285550 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8394a7d93fc3d53089997900b435783d') in 0.054640 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 153
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Asphalt_materials/Materials/Asphalt_material_4.mat
-  artifactKey: Guid(16b0c15223d724c6095b22a3530f3536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asphalt_materials/Materials/Asphalt_material_4.mat using Guid(16b0c15223d724c6095b22a3530f3536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec731c484e849f183c27188df2ffb936') in 0.007370 seconds
+  Time since last request: 3.125225 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54a3881445a0ccaaa107c0513321437') in 0.063622 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Asphalt_materials/Materials/Asphalt_material_8.mat
-  artifactKey: Guid(82527f3745d8e48509b14807ede99c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asphalt_materials/Materials/Asphalt_material_8.mat using Guid(82527f3745d8e48509b14807ede99c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f896a6a571604a6f7c9406fb1ffc2d') in 0.008301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Asphalt_materials/Materials/NewLayer.terrainlayer
-  artifactKey: Guid(f2cb8b8669ee1664195e9007eb7313a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asphalt_materials/Materials/NewLayer.terrainlayer using Guid(f2cb8b8669ee1664195e9007eb7313a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380e7616c45c1100a374b901ae6e4ccc') in 0.001073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.809886 seconds.
-  path: Assets/Asphalt_materials/Textures/Asphalt_texture3/NormalMap-3.png
-  artifactKey: Guid(1b21481fec043435e997bffb2f8d64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asphalt_materials/Textures/Asphalt_texture3/NormalMap-3.png using Guid(1b21481fec043435e997bffb2f8d64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c9dfcf70f5bcfe90f9ae65daeb708c') in 0.000345 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 53.930389 seconds.
-  path: Assets/Concrete Mixer/low_M_engine_Normal.png
-  artifactKey: Guid(ebe32b1d08b6726499ec8f2d97b87141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Concrete Mixer/low_M_engine_Normal.png using Guid(ebe32b1d08b6726499ec8f2d97b87141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e8a52114787b29e57efbcccc3efed1') in 0.013611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Concrete Mixer/mixer.obj
-  artifactKey: Guid(c861c2d0d1039184292e257ebeb199ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Concrete Mixer/mixer.obj using Guid(c861c2d0d1039184292e257ebeb199ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a1fc2ef17b9bf19d7503d8df4ca949') in 0.041450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Concrete Mixer/mixer.fbx
-  artifactKey: Guid(1ae14a3d7d0ee7f4aab66d7b9715d791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Concrete Mixer/mixer.fbx using Guid(1ae14a3d7d0ee7f4aab66d7b9715d791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4c6c92b33b161e8287fd74a6ad6178') in 0.015891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 153
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+Symbol file data-000001AE225A1030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.264 seconds
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Symbol file data-000001AE225A1030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE225A1030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D0AD460 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A3C0010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF6A3110 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF0037C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE2112EC90 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE880470 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF0037C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE223E5AA0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEDDF580 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A73C020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B431020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00BADE430 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B431020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B431020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE2112EC90 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF6A3110 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE22CB6040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEA8DE60 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B009A3F010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF6AF120 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF6AF120 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF6AF120 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE22CE1920 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF6AF120 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEA8DE60 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B015030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEAD29B0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE20D11D50 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B8FE010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C96D020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEDDF580 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE22407F10 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE2240C720 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF19CD20 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF19CD20 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE20ED7AC0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00BB00840 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF19CD20 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00BB00840 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF19CD20 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C9A1470 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.570 seconds
+Refreshing native plugins compatible for Editor in 6.63 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.683 seconds
-Domain Reload Profiling: 946ms
-	BeginReloadAssembly (94ms)
+- Finished resetting the current domain, in  2.510 seconds
+Domain Reload Profiling: 3078ms
+	BeginReloadAssembly (176ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (160ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (376ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (683ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2511ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (370ms)
+		SetupLoadedEditorAssemblies (1445ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (295ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (819ms)
+			ProcessInitializeOnLoadMethodAttributes (409ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (3ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Failed to load shader (instanceID 484, GUID c4edd00ff2db5b24391a4fcb1762e459)
+Failed to load shader (instanceID 676, GUID c8b6a681c7b4e2e4785ffab093907f9e)
+Failed to load shader (instanceID 626, GUID 3dd9fd928fdb83743b1f27d15df22179)
+Failed to load shader (instanceID 562, GUID 123ed592ad5c2494b8aed301fd609e7b)
+Failed to load shader (instanceID 540, GUID 2e37131331fbdca449b1a2bc47a639ca)
+Failed to load shader (instanceID 568, GUID 9bd32a6ece529fd4f9408b8d7e00c10d)
+Failed to load shader (instanceID 508, GUID 0ef322534f047a34c96d29419d56d17a)
+Failed to load shader (instanceID 644, GUID 0b3b82b438158984dbccd69f0afe6ae6)
+Failed to load shader (instanceID 678, GUID 33a2079f6a2db4c4eb2e44b33f4ddf6b)
+Failed to load shader (instanceID 550, GUID 42dfcc8fe803ece4096c58630689982f)
+Failed to load shader (instanceID 600, GUID cef5ba33ee5063d4c8b495d2292e394d)
+Failed to load shader (instanceID 658, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 722, GUID 756bac9090102564582875f4c7e30202)
+Failed to load shader (instanceID 536, GUID dedaf4ea0d134ca4aad1d95a558c46e5)
+Failed to load shader (instanceID 552, GUID e22fc1942c664490980b8793dd4a163d)
+Failed to load shader (instanceID 690, GUID 81d02e8644315b742b154842a3a2f98c)
+Failed to load shader (instanceID 582, GUID 123f13d52852ef547b2962de4bd9eaad)
 Failed to load shader (instanceID 474, GUID 2f0aaacddead9f44fa76535dbd52811b)
+Failed to load shader (instanceID 632, GUID 08b7ad21d2b8e9142b730b22d7355821)
+Failed to load shader (instanceID 724, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 698, GUID 6510c57cccce5674092bdc0dd1ae98c1)
+Failed to load shader (instanceID 610, GUID ca059f1af4587a24b9a9eed3b66cff0f)
+Failed to load shader (instanceID 500, GUID 439949ea1bfa91b4ba0d04269fcde33d)
+Failed to load shader (instanceID 692, GUID 3ef2b84260e542d4e8640a7e20bb5203)
+Failed to load shader (instanceID 556, GUID 67d6171b0acc6554aad48c845ec7e67f)
+Failed to load shader (instanceID 706, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 512, GUID 8e706c0e71fcec34a8f5c9713e5e2943)
+Failed to load shader (instanceID 574, GUID a06934a4863e778498be65d8f865b7a4)
+Failed to load shader (instanceID 680, GUID 91d9e1751d0a17749819762ebf2b6846)
+Failed to load shader (instanceID 490, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 618, GUID ea18ca9826385e943979c46cf98968cc)
+Failed to load shader (instanceID 584, GUID 3b3bf235775cf8b4baae7f3306787ab0)
+Failed to load shader (instanceID 700, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 526, GUID 0024f9d09a828734192f3e1cd5931745)
+Failed to load shader (instanceID 498, GUID c1d1d149a043a5349ba367da6c2051ba)
+Failed to load shader (instanceID 710, GUID e96e3b8a4797c8f47b7ae6759a3e66af)
+Failed to load shader (instanceID 608, GUID 93d40cc9a6e13994f86f576a624efa18)
+Failed to load shader (instanceID 654, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 496, GUID c4d81c6e573560444bb1ea11ae4acfcb)
+Failed to load shader (instanceID 684, GUID 4517edda0467bb14489d5eccc9973ba2)
+Failed to load shader (instanceID 592, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 716, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 666, GUID 73be0053604e1d54388db4f32739a92f)
+Failed to load shader (instanceID 532, GUID 2fcfb8d92f45e4549b3f0bad5d0654bf)
+Failed to load shader (instanceID 714, GUID 8ced2ee46972912409c8ffd9ea2276a4)
+Failed to load shader (instanceID 576, GUID 001a47fa123e95a4bba13ecb0442d944)
+Failed to load shader (instanceID 594, GUID d850d0a2481878d4bbf17e5126b04163)
+Failed to load shader (instanceID 530, GUID 00dd221e34a6ab349a1196b0f2fab693)
+Failed to load shader (instanceID 506, GUID 8137b807709e178498f22ed710864bb0)
+Failed to load shader (instanceID 580, GUID 286ed840dd86d4d4988916f3df5a1429)
+Failed to load shader (instanceID 514, GUID cf5ca5b6ef18b3f429ed707ee9ceac9f)
+Failed to load shader (instanceID 480, GUID eb607f5e8fc16e140b732f33d26c8c31)
 Failed to load shader (instanceID 472, GUID b90e352d9db3cd5489afb4a5254f731a)
-Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Failed to load shader (instanceID 528, GUID 7a09af24008164d40ae85ccd6bf87e17)
+Failed to load shader (instanceID 620, GUID 5ac9ef0c50282754b93c7692488e7ee7)
+Failed to load shader (instanceID 578, GUID 12f1a69ddf916f042ae6ce8a994506f3)
+Failed to load shader (instanceID 588, GUID a6402c19b020b4a4fb7073aaa2e26aba)
+Failed to load shader (instanceID 630, GUID 017a05924c0b0484ca29717ed0c60343)
+Failed to load shader (instanceID 548, GUID 3d1574f1cdfa0ce4995f9bc79ed7f8ec)
+Failed to load shader (instanceID 502, GUID c7c2bd17b06ceb4468e14081aaf1b96f)
+Failed to load shader (instanceID 488, GUID 794f260d88f9fe74fa681fe5ab74a107)
+Failed to load shader (instanceID 712, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 524, GUID db8bd7436dc2c5f4c92655307d198381)
+Failed to load shader (instanceID 534, GUID 02ae56f4306413c4a96dcf005cde1971)
+Failed to load shader (instanceID 636, GUID 49feb6b111e82ec4eb6d3d08e4b6903e)
+Failed to load shader (instanceID 554, GUID b22ad378c678348729d3a3f981b9f270)
+Failed to load shader (instanceID 602, GUID e6255f98cf405eb45ab6f9006cf11e1f)
+Failed to load shader (instanceID 510, GUID 9bc5229549892084da43ad706d84f1bc)
+Failed to load shader (instanceID 538, GUID bfa43a48695613b4ea19c58858ae1a61)
+Failed to load shader (instanceID 616, GUID dd7047092f3c82b40b3a07868f9c4de2)
+Failed to load shader (instanceID 596, GUID c243aac96dda5fa40bed693ed5ba02c4)
+Failed to load shader (instanceID 542, GUID 8371b763f09c7304889c22aa97ebdfd2)
+Failed to load shader (instanceID 718, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 492, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 564, GUID 5685fd17e71045e4ca9fefca38a7c177)
+Failed to load shader (instanceID 624, GUID 9655f4aa89a469c49aceaceabf9bc77b)
+Failed to load shader (instanceID 726, GUID 19dfbb09098c9584a83c956fbd6c5d79)
+Failed to load shader (instanceID 694, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 670, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 598, GUID 7e3722d0388000848acb25fd3cc8c088)
+Failed to load shader (instanceID 606, GUID e3cab24f27741f44d8af1e94d006267c)
+Failed to load shader (instanceID 660, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 520, GUID 392325671f122f540be9033ca5ae7a56)
+Failed to load shader (instanceID 558, GUID 2ad7ce40f0dbaf64dadef1f58d8524d3)
+Failed to load shader (instanceID 628, GUID 85330b3de0cfebc4ba78b2d61b1a2899)
+Failed to load shader (instanceID 668, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 566, GUID 32f724728cf19904291226f239ec16f0)
+Failed to load shader (instanceID 516, GUID 55d195396b03b804eb78c92d468e3c8e)
+Failed to load shader (instanceID 570, GUID 48db2705cf2856d4e893eb30a6892d1b)
+Failed to load shader (instanceID 662, GUID 08967e1a353252242a0c4cfc66ced645)
+Failed to load shader (instanceID 612, GUID fd532bf1795188c4daaa66ea798b8b0a)
+Failed to load shader (instanceID 494, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 682, GUID 0fcef9ef067b4cd44a62bd6ac0166384)
+Failed to load shader (instanceID 708, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 614, GUID 6e6a4a3dbb788234594aa74f2d6aeb6f)
+Failed to load shader (instanceID 728, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 482, GUID 6e4ae4064600d784cac1e41a9e6f2e59)
+Failed to load shader (instanceID 634, GUID 4edd96259a5e8b44c90479928f0cd11e)
+Failed to load shader (instanceID 656, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 560, GUID d05913e251bed7a4992c921c62e1b647)
+Failed to load shader (instanceID 522, GUID 3b21275fd12d65f49babb5286f040f2d)
+Failed to load shader (instanceID 586, GUID d279c46a545b0af4f9f0c4fa82cd489e)
+Failed to load shader (instanceID 638, GUID 9cef3686fa32c8840947ed99b561195c)
+Failed to load shader (instanceID 544, GUID 035941b63024d1943af48811c1db20d9)
+Failed to load shader (instanceID 604, GUID 46a45b32bb110604fb36216b63bcdb81)
+Failed to load shader (instanceID 504, GUID e874aca2df8300a488258738c31f85cf)
+Failed to load shader (instanceID 546, GUID 8ea49ef16606acd489439e676ab84040)
+Failed to load shader (instanceID 518, GUID 79a966a5200a456188dec0d48d805614)
+Failed to load shader (instanceID 478, GUID 1d64af84bdc970c4fae0c1e06dd95b73)
+Failed to load shader (instanceID 590, GUID 31f36caf0a5e7f848a1b5328b6ad3eb8)
+Failed to load shader (instanceID 622, GUID 3330c1503ea8c6d4d9408df3f64227eb)
+Failed to load shader (instanceID 686, GUID 263f12c7593cf8841b5ccdbb717e3389)
+Failed to load shader (instanceID 572, GUID 2b5d4f1b26f03dc4a873b093e0c4adb1)
+Failed to load shader (instanceID 672, GUID eab0538d9d5746246806a9611c04ac4d)
+Refreshing native plugins compatible for Editor in 27.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3700 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (33.2 KB). Loaded Objects now: 4272.
-Memory consumption went from 157.1 MB to 157.1 MB.
-Total: 2.578500 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.068500 ms MarkObjects: 2.264200 ms  DeleteObjects: 0.040600 ms)
+Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.7 KB). Loaded Objects now: 4263.
+Memory consumption went from 176.0 MB to 176.0 MB.
+Total: 15.788500 ms (FindLiveObjects: 0.852000 ms CreateObjectMapping: 0.196200 ms MarkObjects: 14.411700 ms  DeleteObjects: 0.322300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90.691253 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbd6ce939b32febf69c91ca8d319445') in 0.178262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 23.925800 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Animations/ReflectionProbe-0.exr
+  artifactKey: Guid(0633bfd2e8a481346820f8c334e7d7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Animations/ReflectionProbe-0.exr using Guid(0633bfd2e8a481346820f8c334e7d7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f241537b0fa3ed3e716468afc8037cdd') in 0.053403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_Walk1.FBX
+  artifactKey: Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_Walk1.FBX using Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a173c059f44a25bc1388a6bc01096536') in 0.282850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX
+  artifactKey: Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX using Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfacad981e075e76f7c9545113c8a1d') in 0.229314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 177
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_Walk.FBX
+  artifactKey: Guid(59dbfb66512f63c4eb6e1e30e0603198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_Walk.FBX using Guid(59dbfb66512f63c4eb6e1e30e0603198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848f8e214a977e3fc0b813c1a069ea80') in 0.236765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX
+  artifactKey: Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX using Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971229e0c034ae304045ff173da795c7') in 0.243252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_FallingBack.FBX
+  artifactKey: Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Zombie/Animations/Zombie@Z_FallingBack.FBX using Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8824b97fec1b2d64879a7ad87ca9665') in 0.050462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001AFDEFFBC60 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00CC5D340 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00CC5D340 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE213BD020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A3C0010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C3DA030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00BB15A40 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00AF18DF0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00BB15A40 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00BB15A40 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE223E5AA0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE20E88020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF43C020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE93EEB0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C624F90 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE93EEB0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE93EEB0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D2F1E50 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00AF00DD0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C126020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B851030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B009A3F010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00AF18DF0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C650870 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C650870 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B851030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C650870 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B851030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B009749030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A590030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C650870 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D1F48E0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDE858060 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B009345020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A171280 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A6CD1C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D1F48E0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C3DA030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C3DA030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B8FE010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D1F48E0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEDDF580 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D1F48E0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D1F48E0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.685 seconds
+Refreshing native plugins compatible for Editor in 13.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.552 seconds
+Domain Reload Profiling: 3234ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (760ms)
+			ProcessInitializeOnLoadMethodAttributes (324ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Failed to load shader (instanceID 484, GUID c4edd00ff2db5b24391a4fcb1762e459)
+Failed to load shader (instanceID 676, GUID c8b6a681c7b4e2e4785ffab093907f9e)
+Failed to load shader (instanceID 626, GUID 3dd9fd928fdb83743b1f27d15df22179)
+Failed to load shader (instanceID 562, GUID 123ed592ad5c2494b8aed301fd609e7b)
+Failed to load shader (instanceID 540, GUID 2e37131331fbdca449b1a2bc47a639ca)
+Failed to load shader (instanceID 568, GUID 9bd32a6ece529fd4f9408b8d7e00c10d)
+Failed to load shader (instanceID 508, GUID 0ef322534f047a34c96d29419d56d17a)
+Failed to load shader (instanceID 644, GUID 0b3b82b438158984dbccd69f0afe6ae6)
+Failed to load shader (instanceID 678, GUID 33a2079f6a2db4c4eb2e44b33f4ddf6b)
+Failed to load shader (instanceID 550, GUID 42dfcc8fe803ece4096c58630689982f)
+Failed to load shader (instanceID 600, GUID cef5ba33ee5063d4c8b495d2292e394d)
+Failed to load shader (instanceID 658, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 722, GUID 756bac9090102564582875f4c7e30202)
+Failed to load shader (instanceID 536, GUID dedaf4ea0d134ca4aad1d95a558c46e5)
+Failed to load shader (instanceID 552, GUID e22fc1942c664490980b8793dd4a163d)
+Failed to load shader (instanceID 690, GUID 81d02e8644315b742b154842a3a2f98c)
+Failed to load shader (instanceID 582, GUID 123f13d52852ef547b2962de4bd9eaad)
+Failed to load shader (instanceID 474, GUID 2f0aaacddead9f44fa76535dbd52811b)
+Failed to load shader (instanceID 632, GUID 08b7ad21d2b8e9142b730b22d7355821)
+Failed to load shader (instanceID 724, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 698, GUID 6510c57cccce5674092bdc0dd1ae98c1)
+Failed to load shader (instanceID 610, GUID ca059f1af4587a24b9a9eed3b66cff0f)
+Failed to load shader (instanceID 500, GUID 439949ea1bfa91b4ba0d04269fcde33d)
+Failed to load shader (instanceID 692, GUID 3ef2b84260e542d4e8640a7e20bb5203)
+Failed to load shader (instanceID 556, GUID 67d6171b0acc6554aad48c845ec7e67f)
+Failed to load shader (instanceID 706, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 512, GUID 8e706c0e71fcec34a8f5c9713e5e2943)
+Failed to load shader (instanceID 574, GUID a06934a4863e778498be65d8f865b7a4)
+Failed to load shader (instanceID 680, GUID 91d9e1751d0a17749819762ebf2b6846)
+Failed to load shader (instanceID 490, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 618, GUID ea18ca9826385e943979c46cf98968cc)
+Failed to load shader (instanceID 584, GUID 3b3bf235775cf8b4baae7f3306787ab0)
+Failed to load shader (instanceID 700, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 526, GUID 0024f9d09a828734192f3e1cd5931745)
+Failed to load shader (instanceID 498, GUID c1d1d149a043a5349ba367da6c2051ba)
+Failed to load shader (instanceID 710, GUID e96e3b8a4797c8f47b7ae6759a3e66af)
+Failed to load shader (instanceID 608, GUID 93d40cc9a6e13994f86f576a624efa18)
+Failed to load shader (instanceID 654, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 496, GUID c4d81c6e573560444bb1ea11ae4acfcb)
+Failed to load shader (instanceID 684, GUID 4517edda0467bb14489d5eccc9973ba2)
+Failed to load shader (instanceID 592, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 716, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 666, GUID 73be0053604e1d54388db4f32739a92f)
+Failed to load shader (instanceID 532, GUID 2fcfb8d92f45e4549b3f0bad5d0654bf)
+Failed to load shader (instanceID 714, GUID 8ced2ee46972912409c8ffd9ea2276a4)
+Failed to load shader (instanceID 576, GUID 001a47fa123e95a4bba13ecb0442d944)
+Failed to load shader (instanceID 594, GUID d850d0a2481878d4bbf17e5126b04163)
+Failed to load shader (instanceID 530, GUID 00dd221e34a6ab349a1196b0f2fab693)
+Failed to load shader (instanceID 506, GUID 8137b807709e178498f22ed710864bb0)
+Failed to load shader (instanceID 580, GUID 286ed840dd86d4d4988916f3df5a1429)
+Failed to load shader (instanceID 514, GUID cf5ca5b6ef18b3f429ed707ee9ceac9f)
+Failed to load shader (instanceID 480, GUID eb607f5e8fc16e140b732f33d26c8c31)
+Failed to load shader (instanceID 472, GUID b90e352d9db3cd5489afb4a5254f731a)
+Failed to load shader (instanceID 528, GUID 7a09af24008164d40ae85ccd6bf87e17)
+Failed to load shader (instanceID 620, GUID 5ac9ef0c50282754b93c7692488e7ee7)
+Failed to load shader (instanceID 578, GUID 12f1a69ddf916f042ae6ce8a994506f3)
+Failed to load shader (instanceID 588, GUID a6402c19b020b4a4fb7073aaa2e26aba)
+Failed to load shader (instanceID 630, GUID 017a05924c0b0484ca29717ed0c60343)
+Failed to load shader (instanceID 548, GUID 3d1574f1cdfa0ce4995f9bc79ed7f8ec)
+Failed to load shader (instanceID 502, GUID c7c2bd17b06ceb4468e14081aaf1b96f)
+Failed to load shader (instanceID 488, GUID 794f260d88f9fe74fa681fe5ab74a107)
+Failed to load shader (instanceID 712, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 524, GUID db8bd7436dc2c5f4c92655307d198381)
+Failed to load shader (instanceID 534, GUID 02ae56f4306413c4a96dcf005cde1971)
+Failed to load shader (instanceID 636, GUID 49feb6b111e82ec4eb6d3d08e4b6903e)
+Failed to load shader (instanceID 554, GUID b22ad378c678348729d3a3f981b9f270)
+Failed to load shader (instanceID 602, GUID e6255f98cf405eb45ab6f9006cf11e1f)
+Failed to load shader (instanceID 510, GUID 9bc5229549892084da43ad706d84f1bc)
+Failed to load shader (instanceID 538, GUID bfa43a48695613b4ea19c58858ae1a61)
+Failed to load shader (instanceID 616, GUID dd7047092f3c82b40b3a07868f9c4de2)
+Failed to load shader (instanceID 596, GUID c243aac96dda5fa40bed693ed5ba02c4)
+Failed to load shader (instanceID 542, GUID 8371b763f09c7304889c22aa97ebdfd2)
+Failed to load shader (instanceID 718, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 492, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 564, GUID 5685fd17e71045e4ca9fefca38a7c177)
+Failed to load shader (instanceID 624, GUID 9655f4aa89a469c49aceaceabf9bc77b)
+Failed to load shader (instanceID 726, GUID 19dfbb09098c9584a83c956fbd6c5d79)
+Failed to load shader (instanceID 694, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 670, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 598, GUID 7e3722d0388000848acb25fd3cc8c088)
+Failed to load shader (instanceID 606, GUID e3cab24f27741f44d8af1e94d006267c)
+Failed to load shader (instanceID 660, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 520, GUID 392325671f122f540be9033ca5ae7a56)
+Failed to load shader (instanceID 558, GUID 2ad7ce40f0dbaf64dadef1f58d8524d3)
+Failed to load shader (instanceID 628, GUID 85330b3de0cfebc4ba78b2d61b1a2899)
+Failed to load shader (instanceID 668, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 566, GUID 32f724728cf19904291226f239ec16f0)
+Failed to load shader (instanceID 516, GUID 55d195396b03b804eb78c92d468e3c8e)
+Failed to load shader (instanceID 570, GUID 48db2705cf2856d4e893eb30a6892d1b)
+Failed to load shader (instanceID 662, GUID 08967e1a353252242a0c4cfc66ced645)
+Failed to load shader (instanceID 612, GUID fd532bf1795188c4daaa66ea798b8b0a)
+Failed to load shader (instanceID 494, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 682, GUID 0fcef9ef067b4cd44a62bd6ac0166384)
+Failed to load shader (instanceID 708, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 614, GUID 6e6a4a3dbb788234594aa74f2d6aeb6f)
+Failed to load shader (instanceID 728, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 482, GUID 6e4ae4064600d784cac1e41a9e6f2e59)
+Failed to load shader (instanceID 634, GUID 4edd96259a5e8b44c90479928f0cd11e)
+Failed to load shader (instanceID 656, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 560, GUID d05913e251bed7a4992c921c62e1b647)
+Failed to load shader (instanceID 522, GUID 3b21275fd12d65f49babb5286f040f2d)
+Failed to load shader (instanceID 586, GUID d279c46a545b0af4f9f0c4fa82cd489e)
+Failed to load shader (instanceID 638, GUID 9cef3686fa32c8840947ed99b561195c)
+Failed to load shader (instanceID 544, GUID 035941b63024d1943af48811c1db20d9)
+Failed to load shader (instanceID 604, GUID 46a45b32bb110604fb36216b63bcdb81)
+Failed to load shader (instanceID 504, GUID e874aca2df8300a488258738c31f85cf)
+Failed to load shader (instanceID 546, GUID 8ea49ef16606acd489439e676ab84040)
+Failed to load shader (instanceID 518, GUID 79a966a5200a456188dec0d48d805614)
+Failed to load shader (instanceID 478, GUID 1d64af84bdc970c4fae0c1e06dd95b73)
+Failed to load shader (instanceID 590, GUID 31f36caf0a5e7f848a1b5328b6ad3eb8)
+Failed to load shader (instanceID 622, GUID 3330c1503ea8c6d4d9408df3f64227eb)
+Failed to load shader (instanceID 686, GUID 263f12c7593cf8841b5ccdbb717e3389)
+Failed to load shader (instanceID 572, GUID 2b5d4f1b26f03dc4a873b093e0c4adb1)
+Failed to load shader (instanceID 672, GUID eab0538d9d5746246806a9611c04ac4d)
+Refreshing native plugins compatible for Editor in 17.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.8 KB). Loaded Objects now: 4301.
+Memory consumption went from 178.6 MB to 178.5 MB.
+Total: 14.269500 ms (FindLiveObjects: 1.138400 ms CreateObjectMapping: 0.571900 ms MarkObjects: 12.333800 ms  DeleteObjects: 0.204100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001B00D2F1E50 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D0C7330 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF2C2050 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE213BD020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A3C0010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B009769040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A2E0080 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE2101D040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D2F1E50 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B0090C2010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEFF6020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00AF00DD0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF2D6D70 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C1CC010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEA64B80 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEF8D1B0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A27A040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF738060 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE210C5AA0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B889C30 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B009FE2020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B009A3F010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEFFBC60 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEFFBC60 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEFFBC60 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE210C5AA0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEFFBC60 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B009FE2020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B015030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B0096D7020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C1CC010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE20EEA950 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A148010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C7B7010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D0A5450 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF0037C0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE223E5AA0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00CCE4C00 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D1EBAD0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00AFA3020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00997F030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C7B7010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00997F030 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00B958020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.597 seconds
+Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.666 seconds
+Domain Reload Profiling: 3261ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2669ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (882ms)
+			ProcessInitializeOnLoadMethodAttributes (362ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Failed to load shader (instanceID 484, GUID c4edd00ff2db5b24391a4fcb1762e459)
+Failed to load shader (instanceID 676, GUID c8b6a681c7b4e2e4785ffab093907f9e)
+Failed to load shader (instanceID 626, GUID 3dd9fd928fdb83743b1f27d15df22179)
+Failed to load shader (instanceID 562, GUID 123ed592ad5c2494b8aed301fd609e7b)
+Failed to load shader (instanceID 540, GUID 2e37131331fbdca449b1a2bc47a639ca)
+Failed to load shader (instanceID 568, GUID 9bd32a6ece529fd4f9408b8d7e00c10d)
+Failed to load shader (instanceID 508, GUID 0ef322534f047a34c96d29419d56d17a)
+Failed to load shader (instanceID 644, GUID 0b3b82b438158984dbccd69f0afe6ae6)
+Failed to load shader (instanceID 678, GUID 33a2079f6a2db4c4eb2e44b33f4ddf6b)
+Failed to load shader (instanceID 550, GUID 42dfcc8fe803ece4096c58630689982f)
+Failed to load shader (instanceID 600, GUID cef5ba33ee5063d4c8b495d2292e394d)
+Failed to load shader (instanceID 658, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 722, GUID 756bac9090102564582875f4c7e30202)
+Failed to load shader (instanceID 536, GUID dedaf4ea0d134ca4aad1d95a558c46e5)
+Failed to load shader (instanceID 552, GUID e22fc1942c664490980b8793dd4a163d)
+Failed to load shader (instanceID 690, GUID 81d02e8644315b742b154842a3a2f98c)
+Failed to load shader (instanceID 582, GUID 123f13d52852ef547b2962de4bd9eaad)
+Failed to load shader (instanceID 474, GUID 2f0aaacddead9f44fa76535dbd52811b)
+Failed to load shader (instanceID 632, GUID 08b7ad21d2b8e9142b730b22d7355821)
+Failed to load shader (instanceID 724, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 698, GUID 6510c57cccce5674092bdc0dd1ae98c1)
+Failed to load shader (instanceID 610, GUID ca059f1af4587a24b9a9eed3b66cff0f)
+Failed to load shader (instanceID 500, GUID 439949ea1bfa91b4ba0d04269fcde33d)
+Failed to load shader (instanceID 692, GUID 3ef2b84260e542d4e8640a7e20bb5203)
+Failed to load shader (instanceID 556, GUID 67d6171b0acc6554aad48c845ec7e67f)
+Failed to load shader (instanceID 706, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 512, GUID 8e706c0e71fcec34a8f5c9713e5e2943)
+Failed to load shader (instanceID 574, GUID a06934a4863e778498be65d8f865b7a4)
+Failed to load shader (instanceID 680, GUID 91d9e1751d0a17749819762ebf2b6846)
+Failed to load shader (instanceID 490, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 618, GUID ea18ca9826385e943979c46cf98968cc)
+Failed to load shader (instanceID 584, GUID 3b3bf235775cf8b4baae7f3306787ab0)
+Failed to load shader (instanceID 700, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 526, GUID 0024f9d09a828734192f3e1cd5931745)
+Failed to load shader (instanceID 498, GUID c1d1d149a043a5349ba367da6c2051ba)
+Failed to load shader (instanceID 710, GUID e96e3b8a4797c8f47b7ae6759a3e66af)
+Failed to load shader (instanceID 608, GUID 93d40cc9a6e13994f86f576a624efa18)
+Failed to load shader (instanceID 654, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 496, GUID c4d81c6e573560444bb1ea11ae4acfcb)
+Failed to load shader (instanceID 684, GUID 4517edda0467bb14489d5eccc9973ba2)
+Failed to load shader (instanceID 592, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 716, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 666, GUID 73be0053604e1d54388db4f32739a92f)
+Failed to load shader (instanceID 532, GUID 2fcfb8d92f45e4549b3f0bad5d0654bf)
+Failed to load shader (instanceID 714, GUID 8ced2ee46972912409c8ffd9ea2276a4)
+Failed to load shader (instanceID 576, GUID 001a47fa123e95a4bba13ecb0442d944)
+Failed to load shader (instanceID 594, GUID d850d0a2481878d4bbf17e5126b04163)
+Failed to load shader (instanceID 530, GUID 00dd221e34a6ab349a1196b0f2fab693)
+Failed to load shader (instanceID 506, GUID 8137b807709e178498f22ed710864bb0)
+Failed to load shader (instanceID 580, GUID 286ed840dd86d4d4988916f3df5a1429)
+Failed to load shader (instanceID 514, GUID cf5ca5b6ef18b3f429ed707ee9ceac9f)
+Failed to load shader (instanceID 480, GUID eb607f5e8fc16e140b732f33d26c8c31)
+Failed to load shader (instanceID 472, GUID b90e352d9db3cd5489afb4a5254f731a)
+Failed to load shader (instanceID 528, GUID 7a09af24008164d40ae85ccd6bf87e17)
+Failed to load shader (instanceID 620, GUID 5ac9ef0c50282754b93c7692488e7ee7)
+Failed to load shader (instanceID 578, GUID 12f1a69ddf916f042ae6ce8a994506f3)
+Failed to load shader (instanceID 588, GUID a6402c19b020b4a4fb7073aaa2e26aba)
+Failed to load shader (instanceID 630, GUID 017a05924c0b0484ca29717ed0c60343)
+Failed to load shader (instanceID 548, GUID 3d1574f1cdfa0ce4995f9bc79ed7f8ec)
+Failed to load shader (instanceID 502, GUID c7c2bd17b06ceb4468e14081aaf1b96f)
+Failed to load shader (instanceID 488, GUID 794f260d88f9fe74fa681fe5ab74a107)
+Failed to load shader (instanceID 712, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 524, GUID db8bd7436dc2c5f4c92655307d198381)
+Failed to load shader (instanceID 534, GUID 02ae56f4306413c4a96dcf005cde1971)
+Failed to load shader (instanceID 636, GUID 49feb6b111e82ec4eb6d3d08e4b6903e)
+Failed to load shader (instanceID 554, GUID b22ad378c678348729d3a3f981b9f270)
+Failed to load shader (instanceID 602, GUID e6255f98cf405eb45ab6f9006cf11e1f)
+Failed to load shader (instanceID 510, GUID 9bc5229549892084da43ad706d84f1bc)
+Failed to load shader (instanceID 538, GUID bfa43a48695613b4ea19c58858ae1a61)
+Failed to load shader (instanceID 616, GUID dd7047092f3c82b40b3a07868f9c4de2)
+Failed to load shader (instanceID 596, GUID c243aac96dda5fa40bed693ed5ba02c4)
+Failed to load shader (instanceID 542, GUID 8371b763f09c7304889c22aa97ebdfd2)
+Failed to load shader (instanceID 718, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 492, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 564, GUID 5685fd17e71045e4ca9fefca38a7c177)
+Failed to load shader (instanceID 624, GUID 9655f4aa89a469c49aceaceabf9bc77b)
+Failed to load shader (instanceID 726, GUID 19dfbb09098c9584a83c956fbd6c5d79)
+Failed to load shader (instanceID 694, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 670, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 598, GUID 7e3722d0388000848acb25fd3cc8c088)
+Failed to load shader (instanceID 606, GUID e3cab24f27741f44d8af1e94d006267c)
+Failed to load shader (instanceID 660, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 520, GUID 392325671f122f540be9033ca5ae7a56)
+Failed to load shader (instanceID 558, GUID 2ad7ce40f0dbaf64dadef1f58d8524d3)
+Failed to load shader (instanceID 628, GUID 85330b3de0cfebc4ba78b2d61b1a2899)
+Failed to load shader (instanceID 668, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 566, GUID 32f724728cf19904291226f239ec16f0)
+Failed to load shader (instanceID 516, GUID 55d195396b03b804eb78c92d468e3c8e)
+Failed to load shader (instanceID 570, GUID 48db2705cf2856d4e893eb30a6892d1b)
+Failed to load shader (instanceID 662, GUID 08967e1a353252242a0c4cfc66ced645)
+Failed to load shader (instanceID 612, GUID fd532bf1795188c4daaa66ea798b8b0a)
+Failed to load shader (instanceID 494, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 682, GUID 0fcef9ef067b4cd44a62bd6ac0166384)
+Failed to load shader (instanceID 708, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 614, GUID 6e6a4a3dbb788234594aa74f2d6aeb6f)
+Failed to load shader (instanceID 728, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 482, GUID 6e4ae4064600d784cac1e41a9e6f2e59)
+Failed to load shader (instanceID 634, GUID 4edd96259a5e8b44c90479928f0cd11e)
+Failed to load shader (instanceID 656, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 560, GUID d05913e251bed7a4992c921c62e1b647)
+Failed to load shader (instanceID 522, GUID 3b21275fd12d65f49babb5286f040f2d)
+Failed to load shader (instanceID 586, GUID d279c46a545b0af4f9f0c4fa82cd489e)
+Failed to load shader (instanceID 638, GUID 9cef3686fa32c8840947ed99b561195c)
+Failed to load shader (instanceID 544, GUID 035941b63024d1943af48811c1db20d9)
+Failed to load shader (instanceID 604, GUID 46a45b32bb110604fb36216b63bcdb81)
+Failed to load shader (instanceID 504, GUID e874aca2df8300a488258738c31f85cf)
+Failed to load shader (instanceID 546, GUID 8ea49ef16606acd489439e676ab84040)
+Failed to load shader (instanceID 518, GUID 79a966a5200a456188dec0d48d805614)
+Failed to load shader (instanceID 478, GUID 1d64af84bdc970c4fae0c1e06dd95b73)
+Failed to load shader (instanceID 590, GUID 31f36caf0a5e7f848a1b5328b6ad3eb8)
+Failed to load shader (instanceID 622, GUID 3330c1503ea8c6d4d9408df3f64227eb)
+Failed to load shader (instanceID 686, GUID 263f12c7593cf8841b5ccdbb717e3389)
+Failed to load shader (instanceID 572, GUID 2b5d4f1b26f03dc4a873b093e0c4adb1)
+Failed to load shader (instanceID 672, GUID eab0538d9d5746246806a9611c04ac4d)
+Refreshing native plugins compatible for Editor in 16.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.6 KB). Loaded Objects now: 4304.
+Memory consumption went from 180.8 MB to 180.7 MB.
+Total: 12.291300 ms (FindLiveObjects: 0.546300 ms CreateObjectMapping: 0.206900 ms MarkObjects: 11.429100 ms  DeleteObjects: 0.105500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 239.544414 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx
+  artifactKey: Guid(39857cfad1651644682ff5b772e6e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx using Guid(39857cfad1651644682ff5b772e6e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1101893d4c3c8eb3e53bc590be6649') in 0.003474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.041363 seconds.
+  path: Assets/other/Signs/DMG_post_V2.FBX
+  artifactKey: Guid(a0ea1c305b5bc124fb1e2804d0dae4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/DMG_post_V2.FBX using Guid(a0ea1c305b5bc124fb1e2804d0dae4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bec6e30e286234f7b2eef10e51456c') in 0.178527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.139961 seconds.
+  path: Assets/Map_assets/Cement_Bags_on_Pallet__OBJ/Cement Bags on Pallet .obj
+  artifactKey: Guid(ed2ca21967d93404dad95eabb41e3b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map_assets/Cement_Bags_on_Pallet__OBJ/Cement Bags on Pallet .obj using Guid(ed2ca21967d93404dad95eabb41e3b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aedf66ae9e1ee872c15f7a3260a286') in 0.181509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 1.694659 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Quad.fbx
+  artifactKey: Guid(1d5a8595286f94f4bb54171d49f473c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Quad.fbx using Guid(1d5a8595286f94f4bb54171d49f473c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9bfa55f8398b2a1eed399e7f033000') in 0.021730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.419577 seconds.
+  path: Assets/other/Signs/sign_busstop_LOD1.FBX
+  artifactKey: Guid(ad639406f1fce8e469b943ff5bfac377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_busstop_LOD1.FBX using Guid(ad639406f1fce8e469b943ff5bfac377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2367cf752541521196734b30a5fa2949') in 0.045051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.276712 seconds.
+  path: Assets/other/Signs/sign_donotenter.FBX
+  artifactKey: Guid(f84cb320682b5e24788a7a2d02860d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_donotenter.FBX using Guid(f84cb320682b5e24788a7a2d02860d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588b52c243ea25759e3978a38b73a900') in 0.095167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/other/Signs/sign_donotenter_LOD1.FBX
+  artifactKey: Guid(db655ed1735647c4398c32949a9aa815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_donotenter_LOD1.FBX using Guid(db655ed1735647c4398c32949a9aa815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d13181f6f257b755ea973f93b40a4ec') in 0.039233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.016048 seconds.
+  path: Assets/other/Signs/sign_oneway.FBX
+  artifactKey: Guid(d277df776d1e10c4da280420dd2ab4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_oneway.FBX using Guid(d277df776d1e10c4da280420dd2ab4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83bad8dbc507df0ce82bd60179ae70d') in 0.058196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/other/Signs/sign_noparking_LOD1.FBX
+  artifactKey: Guid(63c16154e91e32e478b1f4552e4ff715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_noparking_LOD1.FBX using Guid(63c16154e91e32e478b1f4552e4ff715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d467a43ec563d7b1901d3a5b776f77f') in 0.043431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.157056 seconds.
+  path: Assets/other/Signs/sign_parking_DMG_LOD1.FBX
+  artifactKey: Guid(c67684fbb8220504589b39369b354477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_parking_DMG_LOD1.FBX using Guid(c67684fbb8220504589b39369b354477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280a37585f8632af91f165a92dc15e80') in 0.063769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/other/Signs/sign_speedlimit_25_DMG.FBX
+  artifactKey: Guid(c8fe6afe1477c104d9181ef06794f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_speedlimit_25_DMG.FBX using Guid(c8fe6afe1477c104d9181ef06794f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a744efef4c8b92a91ef5e7c370e6e782') in 0.051673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/other/Signs/sign_speedlimit_65.FBX
+  artifactKey: Guid(08f97668b14786f45b28b3a4e039d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_speedlimit_65.FBX using Guid(08f97668b14786f45b28b3a4e039d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dfa7746609a456a035e1053a2d5dc7') in 0.039216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/other/Signs/sign_speedlimit_25.FBX
+  artifactKey: Guid(bc3408d46b6ac2b44af4a24736b992b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_speedlimit_25.FBX using Guid(bc3408d46b6ac2b44af4a24736b992b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e82efa9f147782347cf3c062722bc5') in 0.037421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.175998 seconds.
+  path: Assets/other/Signs/sign_stop_01.FBX
+  artifactKey: Guid(62e090edb03485e4e8c60a264846ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_stop_01.FBX using Guid(62e090edb03485e4e8c60a264846ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678b053ea50f339cd53c171f24436354') in 0.061398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/other/Signs/sign_stop_02_DMG_LOD1.FBX
+  artifactKey: Guid(64eed32df3f16514a8b715d9e244195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_stop_02_DMG_LOD1.FBX using Guid(64eed32df3f16514a8b715d9e244195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8305d55e2a209534738e3d455313bad7') in 0.047190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/other/Signs/sign_stop_02.FBX
+  artifactKey: Guid(28e7e48007b6443419ba28c70078a504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_stop_02.FBX using Guid(28e7e48007b6443419ba28c70078a504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd83be281e562c4a714b9d1fd923a71') in 0.041191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.215227 seconds.
+  path: Assets/other/Signs/sign_stop_02_DMG_V2_LOD1.FBX
+  artifactKey: Guid(9134682a5a85bf14caf24bdb6018dde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_stop_02_DMG_V2_LOD1.FBX using Guid(9134682a5a85bf14caf24bdb6018dde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e52c316c96b3d3b7d407974c35d5a9') in 0.084905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/TestBall.fbx
+  artifactKey: Guid(abd6f93423e74814797118f1c6d9393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/TestBall.fbx using Guid(abd6f93423e74814797118f1c6d9393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcf1d6750f4811109d10f39729aadd9') in 0.001339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/other/Signs/sign_stop_02_LOD1.FBX
+  artifactKey: Guid(ead5bcd287aabef42b7edf5c1f6a02c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Signs/sign_stop_02_LOD1.FBX using Guid(ead5bcd287aabef42b7edf5c1f6a02c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b48834f5f4226332b8edeeea7479c9') in 0.029710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001AFDF738060 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D0C7330 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE226D3050 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE213BD020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A3C0010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D4C4040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE22ED9AB0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE2101D040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF738060 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B0090C2010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE22ED9AB0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D53A010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDF2D6D70 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE20EEA950 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEA64B80 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B0090C2010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFBBB36040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B0090C2010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C96D020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00AAAFA00 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00CCE4C00 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B009A3F010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D0DE760 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D0DE760 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D0DE760 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C96D020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D0DE760 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00CCE4C00 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE22CB6040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B008E01010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFBBB36040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A27A040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00A1BC020 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C7B7010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D0A5450 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEFFBC60 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00C1CC010 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00CCE4C00 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00D1EBAD0 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Authentication.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AE22407F10 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00979B040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001AFDEDDF580 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.CloudSave.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00979B040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B00979B040 doesn't match image C:\Users\bekic\OneDrive\Documents\GitHub\Zombocalypse\Zombocalypse\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 5.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.731 seconds
+Domain Reload Profiling: 3412ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2733ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (848ms)
+			ProcessInitializeOnLoadMethodAttributes (395ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Failed to load shader (instanceID 484, GUID c4edd00ff2db5b24391a4fcb1762e459)
+Failed to load shader (instanceID 676, GUID c8b6a681c7b4e2e4785ffab093907f9e)
+Failed to load shader (instanceID 626, GUID 3dd9fd928fdb83743b1f27d15df22179)
+Failed to load shader (instanceID 562, GUID 123ed592ad5c2494b8aed301fd609e7b)
+Failed to load shader (instanceID 540, GUID 2e37131331fbdca449b1a2bc47a639ca)
+Failed to load shader (instanceID 568, GUID 9bd32a6ece529fd4f9408b8d7e00c10d)
+Failed to load shader (instanceID 508, GUID 0ef322534f047a34c96d29419d56d17a)
+Failed to load shader (instanceID 644, GUID 0b3b82b438158984dbccd69f0afe6ae6)
+Failed to load shader (instanceID 678, GUID 33a2079f6a2db4c4eb2e44b33f4ddf6b)
+Failed to load shader (instanceID 550, GUID 42dfcc8fe803ece4096c58630689982f)
+Failed to load shader (instanceID 600, GUID cef5ba33ee5063d4c8b495d2292e394d)
+Failed to load shader (instanceID 658, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 722, GUID 756bac9090102564582875f4c7e30202)
+Failed to load shader (instanceID 536, GUID dedaf4ea0d134ca4aad1d95a558c46e5)
+Failed to load shader (instanceID 552, GUID e22fc1942c664490980b8793dd4a163d)
+Failed to load shader (instanceID 690, GUID 81d02e8644315b742b154842a3a2f98c)
+Failed to load shader (instanceID 582, GUID 123f13d52852ef547b2962de4bd9eaad)
+Failed to load shader (instanceID 474, GUID 2f0aaacddead9f44fa76535dbd52811b)
+Failed to load shader (instanceID 632, GUID 08b7ad21d2b8e9142b730b22d7355821)
+Failed to load shader (instanceID 724, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 698, GUID 6510c57cccce5674092bdc0dd1ae98c1)
+Failed to load shader (instanceID 610, GUID ca059f1af4587a24b9a9eed3b66cff0f)
+Failed to load shader (instanceID 500, GUID 439949ea1bfa91b4ba0d04269fcde33d)
+Failed to load shader (instanceID 692, GUID 3ef2b84260e542d4e8640a7e20bb5203)
+Failed to load shader (instanceID 556, GUID 67d6171b0acc6554aad48c845ec7e67f)
+Failed to load shader (instanceID 706, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 512, GUID 8e706c0e71fcec34a8f5c9713e5e2943)
+Failed to load shader (instanceID 574, GUID a06934a4863e778498be65d8f865b7a4)
+Failed to load shader (instanceID 680, GUID 91d9e1751d0a17749819762ebf2b6846)
+Failed to load shader (instanceID 490, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 618, GUID ea18ca9826385e943979c46cf98968cc)
+Failed to load shader (instanceID 584, GUID 3b3bf235775cf8b4baae7f3306787ab0)
+Failed to load shader (instanceID 700, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 526, GUID 0024f9d09a828734192f3e1cd5931745)
+Failed to load shader (instanceID 498, GUID c1d1d149a043a5349ba367da6c2051ba)
+Failed to load shader (instanceID 710, GUID e96e3b8a4797c8f47b7ae6759a3e66af)
+Failed to load shader (instanceID 608, GUID 93d40cc9a6e13994f86f576a624efa18)
+Failed to load shader (instanceID 654, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 496, GUID c4d81c6e573560444bb1ea11ae4acfcb)
+Failed to load shader (instanceID 684, GUID 4517edda0467bb14489d5eccc9973ba2)
+Failed to load shader (instanceID 592, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 716, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 666, GUID 73be0053604e1d54388db4f32739a92f)
+Failed to load shader (instanceID 532, GUID 2fcfb8d92f45e4549b3f0bad5d0654bf)
+Failed to load shader (instanceID 714, GUID 8ced2ee46972912409c8ffd9ea2276a4)
+Failed to load shader (instanceID 576, GUID 001a47fa123e95a4bba13ecb0442d944)
+Failed to load shader (instanceID 594, GUID d850d0a2481878d4bbf17e5126b04163)
+Failed to load shader (instanceID 530, GUID 00dd221e34a6ab349a1196b0f2fab693)
+Failed to load shader (instanceID 506, GUID 8137b807709e178498f22ed710864bb0)
+Failed to load shader (instanceID 580, GUID 286ed840dd86d4d4988916f3df5a1429)
+Failed to load shader (instanceID 514, GUID cf5ca5b6ef18b3f429ed707ee9ceac9f)
+Failed to load shader (instanceID 480, GUID eb607f5e8fc16e140b732f33d26c8c31)
+Failed to load shader (instanceID 472, GUID b90e352d9db3cd5489afb4a5254f731a)
+Failed to load shader (instanceID 528, GUID 7a09af24008164d40ae85ccd6bf87e17)
+Failed to load shader (instanceID 620, GUID 5ac9ef0c50282754b93c7692488e7ee7)
+Failed to load shader (instanceID 578, GUID 12f1a69ddf916f042ae6ce8a994506f3)
+Failed to load shader (instanceID 588, GUID a6402c19b020b4a4fb7073aaa2e26aba)
+Failed to load shader (instanceID 630, GUID 017a05924c0b0484ca29717ed0c60343)
+Failed to load shader (instanceID 548, GUID 3d1574f1cdfa0ce4995f9bc79ed7f8ec)
+Failed to load shader (instanceID 502, GUID c7c2bd17b06ceb4468e14081aaf1b96f)
+Failed to load shader (instanceID 488, GUID 794f260d88f9fe74fa681fe5ab74a107)
+Failed to load shader (instanceID 712, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 524, GUID db8bd7436dc2c5f4c92655307d198381)
+Failed to load shader (instanceID 534, GUID 02ae56f4306413c4a96dcf005cde1971)
+Failed to load shader (instanceID 636, GUID 49feb6b111e82ec4eb6d3d08e4b6903e)
+Failed to load shader (instanceID 554, GUID b22ad378c678348729d3a3f981b9f270)
+Failed to load shader (instanceID 602, GUID e6255f98cf405eb45ab6f9006cf11e1f)
+Failed to load shader (instanceID 510, GUID 9bc5229549892084da43ad706d84f1bc)
+Failed to load shader (instanceID 538, GUID bfa43a48695613b4ea19c58858ae1a61)
+Failed to load shader (instanceID 616, GUID dd7047092f3c82b40b3a07868f9c4de2)
+Failed to load shader (instanceID 596, GUID c243aac96dda5fa40bed693ed5ba02c4)
+Failed to load shader (instanceID 542, GUID 8371b763f09c7304889c22aa97ebdfd2)
+Failed to load shader (instanceID 718, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 492, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 564, GUID 5685fd17e71045e4ca9fefca38a7c177)
+Failed to load shader (instanceID 624, GUID 9655f4aa89a469c49aceaceabf9bc77b)
+Failed to load shader (instanceID 726, GUID 19dfbb09098c9584a83c956fbd6c5d79)
+Failed to load shader (instanceID 694, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 670, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 598, GUID 7e3722d0388000848acb25fd3cc8c088)
+Failed to load shader (instanceID 606, GUID e3cab24f27741f44d8af1e94d006267c)
+Failed to load shader (instanceID 660, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 520, GUID 392325671f122f540be9033ca5ae7a56)
+Failed to load shader (instanceID 558, GUID 2ad7ce40f0dbaf64dadef1f58d8524d3)
+Failed to load shader (instanceID 628, GUID 85330b3de0cfebc4ba78b2d61b1a2899)
+Failed to load shader (instanceID 668, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 566, GUID 32f724728cf19904291226f239ec16f0)
+Failed to load shader (instanceID 516, GUID 55d195396b03b804eb78c92d468e3c8e)
+Failed to load shader (instanceID 570, GUID 48db2705cf2856d4e893eb30a6892d1b)
+Failed to load shader (instanceID 662, GUID 08967e1a353252242a0c4cfc66ced645)
+Failed to load shader (instanceID 612, GUID fd532bf1795188c4daaa66ea798b8b0a)
+Failed to load shader (instanceID 494, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 682, GUID 0fcef9ef067b4cd44a62bd6ac0166384)
+Failed to load shader (instanceID 708, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 614, GUID 6e6a4a3dbb788234594aa74f2d6aeb6f)
+Failed to load shader (instanceID 728, GUID 2df96b66b5510f94b98df2ac6f926ef4)
+Failed to load shader (instanceID 482, GUID 6e4ae4064600d784cac1e41a9e6f2e59)
+Failed to load shader (instanceID 634, GUID 4edd96259a5e8b44c90479928f0cd11e)
+Failed to load shader (instanceID 656, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 560, GUID d05913e251bed7a4992c921c62e1b647)
+Failed to load shader (instanceID 522, GUID 3b21275fd12d65f49babb5286f040f2d)
+Failed to load shader (instanceID 586, GUID d279c46a545b0af4f9f0c4fa82cd489e)
+Failed to load shader (instanceID 638, GUID 9cef3686fa32c8840947ed99b561195c)
+Failed to load shader (instanceID 544, GUID 035941b63024d1943af48811c1db20d9)
+Failed to load shader (instanceID 604, GUID 46a45b32bb110604fb36216b63bcdb81)
+Failed to load shader (instanceID 504, GUID e874aca2df8300a488258738c31f85cf)
+Failed to load shader (instanceID 546, GUID 8ea49ef16606acd489439e676ab84040)
+Failed to load shader (instanceID 518, GUID 79a966a5200a456188dec0d48d805614)
+Failed to load shader (instanceID 478, GUID 1d64af84bdc970c4fae0c1e06dd95b73)
+Failed to load shader (instanceID 590, GUID 31f36caf0a5e7f848a1b5328b6ad3eb8)
+Failed to load shader (instanceID 622, GUID 3330c1503ea8c6d4d9408df3f64227eb)
+Failed to load shader (instanceID 686, GUID 263f12c7593cf8841b5ccdbb717e3389)
+Failed to load shader (instanceID 572, GUID 2b5d4f1b26f03dc4a873b093e0c4adb1)
+Failed to load shader (instanceID 672, GUID eab0538d9d5746246806a9611c04ac4d)
+Refreshing native plugins compatible for Editor in 14.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.8 KB). Loaded Objects now: 4307.
+Memory consumption went from 182.4 MB to 182.4 MB.
+Total: 14.046600 ms (FindLiveObjects: 0.762600 ms CreateObjectMapping: 0.132200 ms MarkObjects: 12.945900 ms  DeleteObjects: 0.200700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
