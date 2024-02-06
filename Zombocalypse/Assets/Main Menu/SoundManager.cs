@@ -34,6 +34,6 @@ public class SoundMenager : MonoBehaviour
     }
     private void Save()
     {
-        PlayerPrefs.SetFloat("misicVolume", volume_slider.value);
+        PlayerPrefs.SetFloat("musicVolume", volume_slider.value);
     }
 }
