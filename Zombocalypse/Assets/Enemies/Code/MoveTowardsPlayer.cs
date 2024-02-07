@@ -31,15 +31,12 @@ public class MOv : MonoBehaviour
             Vector3 targetPos = Target.transform.position;
             targetPos.y = 0.00005f;
             Rigidbody rb = gameObject.GetComponent<Rigidbody>();
-            rb.velocity = speed * (new Vector3(targetPos.x, 0, targetPos.z) - new Vector3(FollowerPos.x, 0, FollowerPos.z)).normalized;
+            rb.velocity = speed * (new Vector3(targetPos.x, targetPos.y, targetPos.z) - new Vector3(FollowerPos.x, FollowerPos.y, FollowerPos.z)).normalized;
             gameObject.transform.LookAt(new Vector3(targetPos.x, gameObject.transform.position.y, targetPos.z));
             rb.angularVelocity = new Vector3(0, 0, 0);
         }
         else 
         {
-            //Follower.transform.LookAt(PointPos);
-            //Follower.transform.position = Vector3.MoveTowards(FollowerPos, PointPos, Time.deltaTime * speed);
-            //Follower.transform.Rotate(-Follower.transform.rotation.eulerAngles.x, 0, -Follower.transform.rotation.eulerAngles.z);
             Rigidbody rb = gameObject.GetComponent<Rigidbody>();
             rb.velocity = speed * (PointPos-gameObject.transform.position).normalized;
             gameObject.transform.LookAt(PointPos);
