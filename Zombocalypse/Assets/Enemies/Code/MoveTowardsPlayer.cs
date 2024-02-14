@@ -10,7 +10,16 @@ public class MOv : MonoBehaviour
     public float speed;
     public Vector3 PointPos;
     private bool gotToPoint;
+    private Healthandstuff healthandstuff;
+    private BoxCollider boxcollider;
+    private CapsuleCollider capsulecollider;
     // Update is called once per frame
+    private void Start()
+    {
+        healthandstuff = GetComponent<Healthandstuff>();
+        boxcollider = GetComponent<BoxCollider>();
+        capsulecollider = GetComponent<CapsuleCollider>();
+    }
     bool CheckIfPointPos(Vector3 Pos, Vector3 CurrentPos)
     {
         if((Pos - CurrentPos).magnitude <= 0.1 && !gotToPoint)
@@ -20,9 +29,30 @@ public class MOv : MonoBehaviour
         }
         return gotToPoint;
     }
+    public void DeleteZombie()
+    {
+        if (healthandstuff.isDead)
+        {
+            Destroy(Follower);
+        }
+    }
+    public void DisableZombie()
+    {
+        if(healthandstuff.isDead)
+        {
+            boxcollider.enabled = false;
+            capsulecollider.enabled = false;
+        }
+    }
+    public void StopZombie()
+    {
+        if (healthandstuff.isDead)
+        {
+            speed = 0;
+        }
+    }
     void FixedUpdate()
     {
-        
         PointPos.y = Follower.transform.position.y;
         Vector3 FollowerPos = Follower.transform.position;
         if (CheckIfPointPos(PointPos, FollowerPos))
